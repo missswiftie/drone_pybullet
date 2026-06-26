@@ -1,0 +1,69 @@
+{
+  "episodes_per_task": 100,
+  "seed": 42,
+  "device": "cuda",
+  "elapsed_sec": 397.1,
+  "tasks": [
+    {
+      "name": "定高悬停",
+      "episodes": 100,
+      "success_rate_pct": 100.0,
+      "completion_rate_pct": 100.0,
+      "mean_reward": 99.072,
+      "mean_steps": 300.0,
+      "reasons": {
+        "SUCCESS": 100
+      },
+      "extras": {}
+    },
+    {
+      "name": "轨迹跟踪",
+      "episodes": 100,
+      "success_rate_pct": 93.0,
+      "completion_rate_pct": 94.65,
+      "mean_reward": 152.743,
+      "mean_steps": 154.3,
+      "reasons": {
+        "SUCCESS": 93,
+        "TIMEOUT": 7
+      },
+      "extras": {}
+    },
+    {
+      "name": "抗风悬停",
+      "episodes": 100,
+      "success_rate_pct": 99.0,
+      "completion_rate_pct": 99.08,
+      "mean_reward": 754.789,
+      "mean_steps": 990.8,
+      "reasons": {
+        "TIMEOUT": 99,
+        "UNSTABLE": 1
+      },
+      "extras": {
+        "mean_pos_error_m": 0.06463509209222491,
+        "wind_intensity": 1.5
+      }
+    },
+    {
+      "name": "密林避障",
+      "episodes": 100,
+      "success_rate_pct": 71.0,
+      "completion_rate_pct": 87.25,
+      "mean_reward": 185.488,
+      "mean_steps": 404.0,
+      "reasons": {
+        "SUCCESS": 71,
+        "CRASH_LIDAR": 14,
+        "CRASH_Z_DEVIATE": 5,
+        "TIMEOUT": 10
+      },
+      "extras": {
+        "mean_final_dist_xy_m": 3.81005540811293,
+        "static_obstacles": 15,
+        "dynamic_obstacles": 3,
+        "goal_dist_m": 35.0
+      }
+    }
+  ]
+}
