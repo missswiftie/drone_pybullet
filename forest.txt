@@ -1,0 +1,1387 @@
+## 训练丛林避障任务
+
+>>> phase1: static=5 dynamic=0 goal=25.0m | 本阶段续训 20,000,000/20,000,000 步
+
+[00131072 | phase1] reward=-49.3 len=4.6 success=0.0% dist=21.2m | CRASH_FLIP:93%,
+CRASH_FLOOR:7% | lr=3.00e-04
+
+[00262144 | phase1] reward=-49.5 len=4.9 success=0.0% dist=21.0m | CRASH_FLIP:85%,
+CRASH_FLOOR:12%, CRASH_Z_DEVIATE:3% | lr=2.98e-04
+
+[00393216 | phase1] reward=-48.8 len=5.4 success=0.0% dist=21.0m | CRASH_FLIP:79%,
+CRASH_FLOOR:15%, CRASH_Z_DEVIATE:6% | lr=2.96e-04
+
+[00524288 | phase1] reward=-48.8 len=5.9 success=0.0% dist=21.0m | CRASH_FLIP:76%,
+CRASH_FLOOR:17%, CRASH_Z_DEVIATE:7% | lr=2.94e-04
+
+[00655360 | phase1] reward=-48.7 len=5.8 success=0.0% dist=21.1m | CRASH_FLOOR:21%,
+CRASH_FLIP:69%, CRASH_Z_DEVIATE:10% | lr=2.92e-04
+
+[00786432 | phase1] reward=-47.3 len=6.3 success=0.0% dist=20.2m | CRASH_FLOOR:30%,
+CRASH_FLIP:58%, CRASH_Z_DEVIATE:12% | lr=2.90e-04
+
+[00917504 | phase1] reward=-47.2 len=7.0 success=0.0% dist=20.7m | CRASH_Z_DEVIATE:13%,
+CRASH_FLOOR:38%, CRASH_FLIP:49% | lr=2.89e-04
+
+[01048576 | phase1] reward=-46.6 len=7.1 success=0.0% dist=20.1m | CRASH_FLIP:46%,
+CRASH_Z_DEVIATE:18%, CRASH_FLOOR:35%, CRASH_LIDAR:1% | lr=2.87e-04
+
+[01179648 | phase1] reward=-45.7 len=7.6 success=0.0% dist=19.7m | CRASH_FLOOR:53%,
+CRASH_FLIP:27%, CRASH_Z_DEVIATE:20% | lr=2.85e-04
+
+[01310720 | phase1] reward=-45.4 len=8.0 success=0.0% dist=19.8m | CRASH_FLOOR:42%,
+CRASH_Z_DEVIATE:32%, CRASH_FLIP:25%, CRASH_LIDAR:1% | lr=2.83e-04
+
+[01441792 | phase1] reward=-45.4 len=8.5 success=0.0% dist=19.7m | CRASH_Z_DEVIATE:38%,
+CRASH_FLOOR:46%, CRASH_FLIP:16% | lr=2.81e-04
+
+[01572864 | phase1] reward=-44.8 len=8.6 success=0.0% dist=19.6m | CRASH_Z_DEVIATE:30%,
+CRASH_FLOOR:49%, CRASH_FLIP:20%, CRASH_LIDAR:1% | lr=2.79e-04
+
+[01703936 | phase1] reward=-44.7 len=8.8 success=0.0% dist=19.4m | CRASH_FLOOR:48%,
+CRASH_Z_DEVIATE:29%, CRASH_FLIP:23% | lr=2.77e-04
+
+[01835008 | phase1] reward=-44.6 len=9.5 success=0.0% dist=19.5m | CRASH_FLOOR:47%,
+CRASH_FLIP:11%, CRASH_Z_DEVIATE:42% | lr=2.75e-04
+
+[01966080 | phase1] reward=-44.4 len=9.7 success=0.0% dist=19.0m | CRASH_FLOOR:45%,
+CRASH_Z_DEVIATE:44%, CRASH_FLIP:11% | lr=2.73e-04
+
+[02097152 | phase1] reward=-44.2 len=9.6 success=0.0% dist=19.4m | CRASH_Z_DEVIATE:41%,
+CRASH_FLOOR:47%, CRASH_FLIP:11%, CRASH_LIDAR:1% | lr=2.71e-04
+
+[02228224 | phase1] reward=-43.6 len=10.0 success=0.0% dist=19.2m | CRASH_FLOOR:42%,
+CRASH_FLIP:13%, CRASH_Z_DEVIATE:44%, CRASH_LIDAR:1% | lr=2.70e-04
+
+[02359296 | phase1] reward=-44.1 len=10.4 success=0.0% dist=19.1m | CRASH_Z_DEVIATE:51%,
+CRASH_FLOOR:43%, CRASH_FLIP:6% | lr=2.68e-04
+
+[02490368 | phase1] reward=-43.3 len=10.7 success=0.0% dist=18.8m | CRASH_FLIP:7%,
+CRASH_Z_DEVIATE:49%, CRASH_FLOOR:44% | lr=2.66e-04
+
+[02621440 | phase1] reward=-43.7 len=10.7 success=0.0% dist=19.1m | CRASH_FLOOR:37%,
+CRASH_Z_DEVIATE:60%, CRASH_FLIP:3% | lr=2.64e-04
+
+[02752512 | phase1] reward=-43.0 len=10.4 success=0.0% dist=19.0m | CRASH_FLOOR:43%,
+CRASH_Z_DEVIATE:53%, CRASH_FLIP:4% | lr=2.62e-04
+
+[02883584 | phase1] reward=-43.2 len=10.9 success=0.0% dist=19.1m | CRASH_FLOOR:39%,
+CRASH_Z_DEVIATE:58%, CRASH_FLIP:3% | lr=2.60e-04
+
+[03014656 | phase1] reward=-43.3 len=11.7 success=0.0% dist=18.9m | CRASH_FLOOR:34%,
+CRASH_Z_DEVIATE:64%, CRASH_FLIP:2% | lr=2.58e-04
+
+[03145728 | phase1] reward=-43.1 len=11.8 success=0.0% dist=19.1m | CRASH_Z_DEVIATE:51%,
+CRASH_FLOOR:46%, CRASH_LIDAR:1%, CRASH_FLIP:2% | lr=2.56e-04
+
+[03276800 | phase1] reward=-42.9 len=11.5 success=0.0% dist=18.8m | CRASH_Z_DEVIATE:60%,
+CRASH_FLOOR:35%, CRASH_FLIP:5% | lr=2.54e-04
+
+[03407872 | phase1] reward=-42.7 len=12.0 success=0.0% dist=19.1m | CRASH_Z_DEVIATE:60%,
+CRASH_FLOOR:38%, CRASH_FLIP:2% | lr=2.52e-04
+
+[03538944 | phase1] reward=-43.0 len=12.1 success=0.0% dist=18.7m | CRASH_FLOOR:26%,
+CRASH_Z_DEVIATE:69%, CRASH_FLIP:5% | lr=2.51e-04
+
+[03670016 | phase1] reward=-42.7 len=12.1 success=0.0% dist=19.2m | CRASH_FLOOR:31%,
+CRASH_Z_DEVIATE:68%, CRASH_FLIP:1% | lr=2.49e-04
+
+[03801088 | phase1] reward=-42.6 len=12.4 success=0.0% dist=18.5m | CRASH_Z_DEVIATE:63%,
+CRASH_FLOOR:35%, CRASH_LIDAR:2% | lr=2.47e-04
+
+[03932160 | phase1] reward=-42.6 len=12.9 success=0.0% dist=19.0m | CRASH_Z_DEVIATE:66%,
+CRASH_FLOOR:34% | lr=2.45e-04
+
+[04063232 | phase1] reward=-42.7 len=12.2 success=0.0% dist=18.8m | CRASH_Z_DEVIATE:68%,
+CRASH_FLOOR:30%, CRASH_FLIP:2% | lr=2.43e-04
+
+[04194304 | phase1] reward=-42.3 len=12.9 success=0.0% dist=18.7m | CRASH_Z_DEVIATE:64%,
+CRASH_FLOOR:35%, CRASH_FLIP:1% | lr=2.41e-04
+
+[04325376 | phase1] reward=-41.9 len=13.0 success=0.0% dist=18.7m | CRASH_Z_DEVIATE:66%,
+CRASH_FLOOR:32%, CRASH_FLIP:2% | lr=2.39e-04
+
+[04456448 | phase1] reward=-42.4 len=12.6 success=0.0% dist=18.3m | CRASH_Z_DEVIATE:58%,
+CRASH_FLOOR:39%, CRASH_FLIP:3% | lr=2.37e-04
+
+[04587520 | phase1] reward=-42.1 len=13.3 success=0.0% dist=18.5m | CRASH_Z_DEVIATE:61%,
+CRASH_FLOOR:37%, CRASH_FLIP:2% | lr=2.35e-04
+
+[04718592 | phase1] reward=-42.0 len=14.4 success=0.0% dist=18.4m | CRASH_Z_DEVIATE:75%,
+CRASH_FLOOR:25% | lr=2.33e-04
+
+[04849664 | phase1] reward=-42.4 len=13.1 success=0.0% dist=18.5m | CRASH_FLOOR:33%,
+CRASH_Z_DEVIATE:67% | lr=2.32e-04
+
+[04980736 | phase1] reward=-42.1 len=13.5 success=0.0% dist=18.9m | CRASH_Z_DEVIATE:74%,
+CRASH_FLOOR:25%, CRASH_FLIP:1% | lr=2.30e-04
+
+[05111808 | phase1] reward=-41.4 len=14.4 success=0.0% dist=18.7m | CRASH_Z_DEVIATE:73%,
+CRASH_FLOOR:26%, CRASH_LIDAR:1% | lr=2.28e-04
+
+[05242880 | phase1] reward=-40.7 len=15.7 success=0.0% dist=18.0m | CRASH_Z_DEVIATE:76%,
+CRASH_FLOOR:23%, CRASH_FLIP:1% | lr=2.26e-04
+
+[05373952 | phase1] reward=-41.5 len=14.9 success=0.0% dist=18.8m | CRASH_Z_DEVIATE:73%,
+CRASH_FLOOR:26%, CRASH_FLIP:1% | lr=2.24e-04
+
+[05505024 | phase1] reward=-41.0 len=16.9 success=0.0% dist=18.6m | CRASH_Z_DEVIATE:69%,
+CRASH_FLOOR:31% | lr=2.22e-04
+
+[05636096 | phase1] reward=-39.9 len=18.2 success=0.0% dist=17.9m | CRASH_Z_DEVIATE:82%,
+CRASH_FLOOR:17%, CRASH_FLIP:1% | lr=2.20e-04
+
+[05767168 | phase1] reward=-40.0 len=18.0 success=0.0% dist=18.0m | CRASH_Z_DEVIATE:80%,
+CRASH_FLOOR:18%, CRASH_LIDAR:1%, CRASH_FLIP:1% | lr=2.18e-04
+
+[05898240 | phase1] reward=-39.2 len=18.9 success=0.0% dist=17.9m | CRASH_Z_DEVIATE:75%,
+CRASH_FLOOR:24%, CRASH_FLIP:1% | lr=2.16e-04
+
+[06029312 | phase1] reward=-36.8 len=21.5 success=0.0% dist=16.8m | CRASH_Z_DEVIATE:82%,
+CRASH_FLOOR:17%, CRASH_FLIP:1% | lr=2.14e-04
+
+[06160384 | phase1] reward=-36.7 len=25.0 success=0.0% dist=17.2m | CRASH_Z_DEVIATE:81%,
+CRASH_FLOOR:19% | lr=2.13e-04
+
+[06291456 | phase1] reward=-35.7 len=26.6 success=0.0% dist=16.7m | CRASH_FLOOR:27%,
+CRASH_Z_DEVIATE:73% | lr=2.11e-04
+
+[06422528 | phase1] reward=-32.3 len=27.0 success=1.0% dist=16.0m | CRASH_Z_DEVIATE:81%,
+CRASH_FLOOR:17%, SUCCESS:1%, CRASH_FLIP:1% | lr=2.09e-04
+
+[06553600 | phase1] reward=-33.3 len=30.7 success=0.0% dist=15.7m | CRASH_Z_DEVIATE:84%,
+CRASH_FLOOR:16% | lr=2.07e-04
+
+[06684672 | phase1] reward=-32.8 len=29.2 success=0.0% dist=15.7m | CRASH_Z_DEVIATE:86%,
+CRASH_FLOOR:14% | lr=2.05e-04
+
+[06815744 | phase1] reward=-35.3 len=30.9 success=0.0% dist=16.5m | CRASH_Z_DEVIATE:74%,
+CRASH_FLOOR:23%, CRASH_LIDAR:2%, CRASH_FLIP:1% | lr=2.03e-04
+
+[06946816 | phase1] reward=-29.5 len=35.6 success=0.0% dist=14.5m | CRASH_Z_DEVIATE:75%,
+CRASH_FLOOR:24%, CRASH_LIDAR:1% | lr=2.01e-04
+
+[07077888 | phase1] reward=-27.9 len=39.7 success=0.0% dist=14.0m | CRASH_Z_DEVIATE:89%,
+CRASH_FLOOR:11% | lr=1.99e-04
+
+[07208960 | phase1] reward=-29.2 len=39.8 success=0.0% dist=14.7m | CRASH_Z_DEVIATE:83%,
+CRASH_FLOOR:15%, CRASH_LIDAR:2% | lr=1.97e-04
+
+[07340032 | phase1] reward=-25.7 len=44.7 success=0.0% dist=13.3m | CRASH_Z_DEVIATE:84%,
+CRASH_FLOOR:15%, CRASH_LIDAR:1% | lr=1.95e-04
+
+[07471104 | phase1] reward=-22.0 len=45.8 success=2.0% dist=13.1m | CRASH_Z_DEVIATE:76%,
+CRASH_FLOOR:17%, CRASH_FLIP:2%, CRASH_LIDAR:3%, SUCCESS:2% | lr=1.94e-04
+
+[07602176 | phase1] reward=-17.4 len=51.3 success=3.0% dist=12.3m | CRASH_FLOOR:23%,
+CRASH_Z_DEVIATE:72%, SUCCESS:3%, CRASH_LIDAR:2% | lr=1.92e-04
+
+[07733248 | phase1] reward=-20.7 len=51.3 success=2.0% dist=12.7m | CRASH_Z_DEVIATE:83%,
+SUCCESS:2%, CRASH_FLOOR:14%, CRASH_FLIP:1% | lr=1.90e-04
+
+[07864320 | phase1] reward=-21.9 len=50.7 success=1.0% dist=12.7m | CRASH_Z_DEVIATE:85%,
+CRASH_FLOOR:12%, CRASH_LIDAR:2%, SUCCESS:1% | lr=1.88e-04
+
+[07995392 | phase1] reward=-21.5 len=60.8 success=0.0% dist=11.4m | CRASH_FLOOR:22%,
+CRASH_Z_DEVIATE:75%, CRASH_FLIP:3% | lr=1.86e-04
+
+[08126464 | phase1] reward=-11.8 len=56.1 success=4.0% dist=11.4m | CRASH_Z_DEVIATE:77%,
+CRASH_FLOOR:19%, SUCCESS:4% | lr=1.84e-04
+
+[08257536 | phase1] reward=-12.0 len=63.3 success=3.0% dist=10.6m | SUCCESS:3%, CRASH_FLOOR:23%,
+CRASH_Z_DEVIATE:71%, CRASH_LIDAR:2%, CRASH_FLIP:1% | lr=1.82e-04
+
+[08388608 | phase1] reward=-13.9 len=57.0 success=4.0% dist=12.0m | CRASH_Z_DEVIATE:85%,
+CRASH_FLOOR:9%, SUCCESS:4%, CRASH_LIDAR:2% | lr=1.80e-04
+
+[08519680 | phase1] reward=-7.6 len=72.5 success=4.0% dist=9.6m | CRASH_Z_DEVIATE:76%,
+CRASH_FLOOR:17%, SUCCESS:4%, CRASH_FLIP:1%, CRASH_LIDAR:2% | lr=1.78e-04
+
+[08650752 | phase1] reward=-12.2 len=81.2 success=3.0% dist=11.1m | CRASH_Z_DEVIATE:88%,
+CRASH_FLOOR:9%, SUCCESS:3% | lr=1.76e-04
+
+[08781824 | phase1] reward=-13.4 len=77.9 success=3.0% dist=11.6m | CRASH_Z_DEVIATE:84%,
+SUCCESS:3%, CRASH_FLOOR:12%, CRASH_LIDAR:1% | lr=1.75e-04
+
+[08912896 | phase1] reward=-9.5 len=87.7 success=3.0% dist=10.6m | CRASH_Z_DEVIATE:84%,
+CRASH_FLOOR:13%, SUCCESS:3% | lr=1.73e-04
+
+[09043968 | phase1] reward=-9.3 len=80.8 success=2.0% dist=8.6m | CRASH_Z_DEVIATE:84%,
+CRASH_FLOOR:12%, CRASH_LIDAR:2%, SUCCESS:2% | lr=1.71e-04
+
+[09175040 | phase1] reward=-11.4 len=87.6 success=3.0% dist=10.7m | CRASH_Z_DEVIATE:85%,
+CRASH_FLOOR:10%, SUCCESS:3%, CRASH_LIDAR:2% | lr=1.69e-04
+
+[09306112 | phase1] reward=-15.9 len=85.7 success=1.0% dist=11.1m | CRASH_Z_DEVIATE:84%,
+CRASH_FLOOR:13%, SUCCESS:1%, CRASH_LIDAR:2% | lr=1.67e-04
+
+[09437184 | phase1] reward=-5.5 len=108.2 success=3.0% dist=9.8m | CRASH_Z_DEVIATE:76%,
+CRASH_FLOOR:19%, SUCCESS:3%, CRASH_LIDAR:2% | lr=1.65e-04
+
+[09568256 | phase1] reward=-2.0 len=102.7 success=4.0% dist=8.9m | SUCCESS:4%,
+CRASH_Z_DEVIATE:80%, CRASH_FLOOR:12%, CRASH_LIDAR:4% | lr=1.63e-04
+
+[09699328 | phase1] reward=4.9 len=117.6 success=7.0% dist=8.8m | CRASH_FLOOR:6%,
+CRASH_Z_DEVIATE:85%, SUCCESS:7%, CRASH_LIDAR:2% | lr=1.61e-04
+
+[09830400 | phase1] reward=-7.7 len=98.1 success=3.0% dist=9.6m | CRASH_Z_DEVIATE:81%,
+CRASH_FLOOR:15%, SUCCESS:3%, CRASH_LIDAR:1% | lr=1.59e-04
+
+[09961472 | phase1] reward=12.0 len=131.5 success=11.0% dist=9.5m | CRASH_Z_DEVIATE:77%,
+CRASH_LIDAR:3%, CRASH_FLOOR:9%, SUCCESS:11% | lr=1.57e-04
+
+[10092544 | phase1] reward=12.6 len=131.6 success=11.0% dist=9.4m | CRASH_Z_DEVIATE:80%,
+SUCCESS:11%, CRASH_FLOOR:9% | lr=1.56e-04
+
+[10223616 | phase1] reward=2.9 len=154.1 success=7.0% dist=10.6m | CRASH_Z_DEVIATE:81%,
+CRASH_FLOOR:12%, SUCCESS:7% | lr=1.54e-04
+
+[10354688 | phase1] reward=9.2 len=145.8 success=9.0% dist=9.9m | CRASH_Z_DEVIATE:76%,
+CRASH_FLOOR:11%, SUCCESS:9%, CRASH_LIDAR:3%, TIMEOUT:1% | lr=1.52e-04
+
+[10485760 | phase1] reward=7.3 len=151.9 success=7.0% dist=9.2m | CRASH_Z_DEVIATE:81%,
+CRASH_FLOOR:11%, SUCCESS:7%, CRASH_LIDAR:1% | lr=1.50e-04
+
+[10616832 | phase1] reward=13.8 len=149.2 success=10.0% dist=9.5m | CRASH_Z_DEVIATE:77%,
+CRASH_FLOOR:9%, SUCCESS:10%, CRASH_FLIP:2%, CRASH_LIDAR:2% | lr=1.48e-04
+
+[10747904 | phase1] reward=12.5 len=179.6 success=8.0% dist=9.1m | CRASH_Z_DEVIATE:82%,
+CRASH_LIDAR:1%, CRASH_FLOOR:8%, SUCCESS:8%, TIMEOUT:1% | lr=1.46e-04
+
+[10878976 | phase1] reward=34.3 len=200.7 success=17.0% dist=7.4m | CRASH_Z_DEVIATE:72%,
+CRASH_LIDAR:4%, SUCCESS:17%, CRASH_FLOOR:6%, TIMEOUT:1% | lr=1.44e-04
+
+[11010048 | phase1] reward=27.5 len=172.7 success=15.0% dist=7.5m | CRASH_FLOOR:8%, SUCCESS:15%,
+CRASH_Z_DEVIATE:76%, CRASH_LIDAR:1% | lr=1.42e-04
+
+[11141120 | phase1] reward=46.7 len=167.8 success=24.0% dist=7.4m | CRASH_FLOOR:10%,
+CRASH_Z_DEVIATE:66%, SUCCESS:24% | lr=1.40e-04
+
+[11272192 | phase1] reward=40.0 len=192.5 success=19.0% dist=7.4m | CRASH_FLOOR:5%,
+CRASH_Z_DEVIATE:75%, SUCCESS:19%, CRASH_FLIP:1% | lr=1.38e-04
+
+[11403264 | phase1] reward=51.0 len=245.1 success=22.0% dist=7.1m | CRASH_Z_DEVIATE:63%,
+CRASH_FLOOR:10%, SUCCESS:22%, CRASH_LIDAR:2%, TIMEOUT:3% | lr=1.37e-04
+
+[11534336 | phase1] reward=46.1 len=226.7 success=21.0% dist=7.5m | CRASH_Z_DEVIATE:69%,
+TIMEOUT:1%, SUCCESS:21%, CRASH_FLOOR:8%, CRASH_FLIP:1% | lr=1.35e-04
+
+[11665408 | phase1] reward=47.7 len=257.7 success=21.0% dist=7.6m | CRASH_Z_DEVIATE:72%,
+SUCCESS:21%, CRASH_FLOOR:6%, TIMEOUT:1% | lr=1.33e-04
+
+[11796480 | phase1] reward=48.5 len=207.8 success=23.0% dist=7.2m | CRASH_Z_DEVIATE:69%,
+TIMEOUT:2%, SUCCESS:23%, CRASH_FLOOR:6% | lr=1.31e-04
+
+[11927552 | phase1] reward=60.7 len=262.7 success=25.0% dist=7.4m | CRASH_Z_DEVIATE:65%,
+CRASH_FLOOR:7%, SUCCESS:25%, TIMEOUT:3% | lr=1.29e-04
+
+[12058624 | phase1] reward=69.3 len=235.4 success=29.0% dist=5.1m | CRASH_Z_DEVIATE:63%,
+SUCCESS:29%, CRASH_FLOOR:7%, TIMEOUT:1% | lr=1.27e-04
+
+[12189696 | phase1] reward=58.4 len=249.7 success=23.0% dist=6.4m | CRASH_LIDAR:1%, SUCCESS:23%,
+TIMEOUT:2%, CRASH_Z_DEVIATE:67%, CRASH_FLOOR:7% | lr=1.25e-04
+
+[12320768 | phase1] reward=79.5 len=264.2 success=35.0% dist=5.9m | SUCCESS:35%,
+CRASH_Z_DEVIATE:58%, CRASH_FLOOR:5%, TIMEOUT:2% | lr=1.23e-04
+
+[12451840 | phase1] reward=65.5 len=288.6 success=27.0% dist=6.4m | CRASH_Z_DEVIATE:59%,
+SUCCESS:27%, TIMEOUT:5%, CRASH_FLOOR:9% | lr=1.21e-04
+
+[12582912 | phase1] reward=79.6 len=274.6 success=34.0% dist=5.9m | CRASH_Z_DEVIATE:51%,
+CRASH_FLOOR:11%, SUCCESS:34%, TIMEOUT:4% | lr=1.19e-04
+
+[12713984 | phase1] reward=83.9 len=248.4 success=38.0% dist=6.2m | SUCCESS:38%, CRASH_FLOOR:7%,
+CRASH_Z_DEVIATE:51%, CRASH_LIDAR:2%, TIMEOUT:2% | lr=1.18e-04
+
+[12845056 | phase1] reward=75.5 len=273.3 success=31.0% dist=6.4m | SUCCESS:31%,
+CRASH_Z_DEVIATE:60%, TIMEOUT:5%, CRASH_LIDAR:1%, CRASH_FLOOR:3% | lr=1.16e-04
+
+[12976128 | phase1] reward=82.1 len=247.3 success=37.0% dist=5.5m | SUCCESS:37%,
+CRASH_Z_DEVIATE:52%, CRASH_FLOOR:9%, TIMEOUT:2% | lr=1.14e-04
+
+[13107200 | phase1] reward=74.8 len=258.0 success=32.0% dist=5.9m | CRASH_LIDAR:1%, SUCCESS:32%,
+CRASH_Z_DEVIATE:57%, TIMEOUT:4%, CRASH_FLOOR:6% | lr=1.12e-04
+
+[13238272 | phase1] reward=83.8 len=313.5 success=35.0% dist=6.0m | SUCCESS:35%,
+CRASH_Z_DEVIATE:51%, TIMEOUT:6%, CRASH_FLOOR:7%, CRASH_LIDAR:1% | lr=1.10e-04
+
+[13369344 | phase1] reward=77.4 len=290.2 success=32.0% dist=6.4m | SUCCESS:32%,
+CRASH_Z_DEVIATE:61%, TIMEOUT:5%, CRASH_FLOOR:2% | lr=1.08e-04
+
+[13500416 | phase1] reward=60.9 len=240.0 success=28.0% dist=6.8m | CRASH_FLOOR:9%,
+CRASH_Z_DEVIATE:61%, SUCCESS:28%, TIMEOUT:2% | lr=1.06e-04
+
+[13631488 | phase1] reward=74.8 len=334.7 success=28.0% dist=5.8m | SUCCESS:28%,
+CRASH_Z_DEVIATE:57%, CRASH_FLOOR:11%, TIMEOUT:4% | lr=1.04e-04
+
+[13762560 | phase1] reward=87.5 len=286.3 success=37.0% dist=5.7m | CRASH_Z_DEVIATE:56%,
+SUCCESS:37%, CRASH_FLOOR:4%, TIMEOUT:3% | lr=1.02e-04
+
+[13893632 | phase1] reward=111.3 len=375.6 success=46.0% dist=5.5m | CRASH_FLOOR:11%,
+CRASH_Z_DEVIATE:39%, SUCCESS:46%, TIMEOUT:4% | lr=1.00e-04
+
+[14024704 | phase1] reward=94.1 len=315.9 success=39.0% dist=5.4m | CRASH_Z_DEVIATE:51%,
+SUCCESS:39%, TIMEOUT:5%, CRASH_FLOOR:5% | lr=9.85e-05
+
+[14155776 | phase1] reward=97.3 len=303.0 success=42.0% dist=5.3m | SUCCESS:42%, CRASH_FLOOR:5%,
+CRASH_Z_DEVIATE:50%, TIMEOUT:3% | lr=9.66e-05
+
+[14286848 | phase1] reward=82.3 len=300.3 success=35.0% dist=6.0m | CRASH_Z_DEVIATE:55%,
+CRASH_FLOOR:5%, SUCCESS:35%, TIMEOUT:5% | lr=9.47e-05
+
+[14417920 | phase1] reward=90.8 len=337.2 success=36.0% dist=6.0m | TIMEOUT:7%,
+CRASH_Z_DEVIATE:50%, SUCCESS:36%, CRASH_FLOOR:5%, CRASH_LIDAR:2% | lr=9.28e-05
+
+[14548992 | phase1] reward=87.2 len=293.9 success=36.0% dist=4.9m | CRASH_Z_DEVIATE:57%,
+SUCCESS:36%, CRASH_FLOOR:3%, TIMEOUT:4% | lr=9.09e-05
+
+[14680064 | phase1] reward=85.1 len=325.7 success=34.0% dist=5.5m | CRASH_Z_DEVIATE:53%,
+CRASH_FLOOR:5%, SUCCESS:34%, TIMEOUT:8% | lr=8.90e-05
+
+[14811136 | phase1] reward=91.2 len=280.3 success=38.0% dist=5.3m | CRASH_Z_DEVIATE:47%,
+SUCCESS:38%, CRASH_FLOOR:7%, CRASH_LIDAR:1%, TIMEOUT:7% | lr=8.71e-05
+
+[14942208 | phase1] reward=80.5 len=299.6 success=32.0% dist=6.0m | CRASH_Z_DEVIATE:56%,
+SUCCESS:32%, CRASH_FLOOR:6%, TIMEOUT:4%, CRASH_LIDAR:2% | lr=8.52e-05
+
+[15073280 | phase1] reward=116.5 len=352.5 success=48.0% dist=4.6m | CRASH_Z_DEVIATE:45%,
+SUCCESS:48%, TIMEOUT:6%, CRASH_FLOOR:1% | lr=8.33e-05
+
+[15204352 | phase1] reward=119.5 len=376.7 success=47.0% dist=3.9m | CRASH_Z_DEVIATE:44%,
+TIMEOUT:7%, SUCCESS:47%, CRASH_FLOOR:2% | lr=8.14e-05
+
+[15335424 | phase1] reward=120.8 len=369.6 success=50.0% dist=3.7m | CRASH_Z_DEVIATE:41%,
+SUCCESS:50%, CRASH_FLOOR:6%, TIMEOUT:3% | lr=7.95e-05
+
+[15466496 | phase1] reward=109.5 len=373.3 success=43.0% dist=5.2m | CRASH_Z_DEVIATE:48%,
+SUCCESS:43%, TIMEOUT:7%, CRASH_FLOOR:2% | lr=7.76e-05
+
+[15597568 | phase1] reward=112.3 len=353.9 success=44.0% dist=4.2m | SUCCESS:44%,
+CRASH_Z_DEVIATE:47%, TIMEOUT:7%, CRASH_FLOOR:2% | lr=7.57e-05
+
+[15728640 | phase1] reward=120.0 len=341.0 success=47.0% dist=3.9m | CRASH_FLOOR:7%,
+CRASH_Z_DEVIATE:38%, SUCCESS:47%, TIMEOUT:8% | lr=7.38e-05
+
+[15859712 | phase1] reward=103.2 len=401.8 success=37.0% dist=5.0m | CRASH_Z_DEVIATE:48%,
+TIMEOUT:10%, SUCCESS:37%, CRASH_FLOOR:5% | lr=7.19e-05
+
+[15990784 | phase1] reward=119.3 len=329.5 success=51.0% dist=4.1m | CRASH_Z_DEVIATE:42%,
+SUCCESS:51%, TIMEOUT:3%, CRASH_FLOOR:4% | lr=7.00e-05
+
+[16121856 | phase1] reward=131.6 len=393.7 success=53.0% dist=3.5m | SUCCESS:53%,
+CRASH_Z_DEVIATE:33%, CRASH_FLOOR:5%, TIMEOUT:7%, CRASH_LIDAR:2% | lr=6.81e-05
+
+[16252928 | phase1] reward=88.9 len=308.5 success=39.0% dist=5.8m | SUCCESS:39%,
+CRASH_Z_DEVIATE:49%, CRASH_FLOOR:9%, TIMEOUT:2%, CRASH_LIDAR:1% | lr=6.62e-05
+
+[16384000 | phase1] reward=125.8 len=440.2 success=48.0% dist=3.8m | SUCCESS:48%,
+CRASH_Z_DEVIATE:40%, TIMEOUT:9%, CRASH_FLOOR:3% | lr=6.43e-05
+
+[16515072 | phase1] reward=108.7 len=336.0 success=46.0% dist=5.7m | SUCCESS:46%,
+CRASH_Z_DEVIATE:46%, TIMEOUT:5%, CRASH_FLOOR:3% | lr=6.24e-05
+
+[16646144 | phase1] reward=117.4 len=358.2 success=50.0% dist=4.5m | CRASH_Z_DEVIATE:41%,
+SUCCESS:50%, TIMEOUT:4%, CRASH_FLOOR:3%, CRASH_LIDAR:2% | lr=6.05e-05
+
+[16777216 | phase1] reward=111.9 len=386.2 success=43.0% dist=4.9m | SUCCESS:43%,
+CRASH_FLOOR:5%, TIMEOUT:8%, CRASH_Z_DEVIATE:43%, CRASH_LIDAR:1% | lr=5.86e-05
+
+[16908288 | phase1] reward=108.2 len=317.7 success=45.0% dist=5.2m | SUCCESS:45%,
+CRASH_Z_DEVIATE:45%, CRASH_FLOOR:5%, TIMEOUT:4%, CRASH_FLIP:1% | lr=5.67e-05
+
+[17039360 | phase1] reward=107.1 len=290.6 success=45.0% dist=4.5m | CRASH_Z_DEVIATE:45%,
+SUCCESS:45%, TIMEOUT:5%, CRASH_FLOOR:5% | lr=5.48e-05
+
+[17170432 | phase1] reward=106.6 len=334.4 success=44.0% dist=5.1m | CRASH_Z_DEVIATE:48%,
+SUCCESS:44%, TIMEOUT:5%, CRASH_FLOOR:3% | lr=5.29e-05
+
+[17301504 | phase1] reward=125.6 len=373.3 success=51.0% dist=4.3m | CRASH_Z_DEVIATE:42%,
+SUCCESS:51%, TIMEOUT:5%, CRASH_FLOOR:2% | lr=5.10e-05
+
+[17432576 | phase1] reward=120.2 len=361.9 success=49.0% dist=4.3m | CRASH_Z_DEVIATE:41%,
+TIMEOUT:5%, SUCCESS:49%, CRASH_FLOOR:5% | lr=4.91e-05
+
+[17563648 | phase1] reward=127.7 len=356.1 success=54.0% dist=4.4m | CRASH_Z_DEVIATE:37%,
+SUCCESS:54%, CRASH_FLOOR:5%, TIMEOUT:4% | lr=4.72e-05
+
+[17694720 | phase1] reward=136.9 len=360.9 success=58.0% dist=3.9m | SUCCESS:58%,
+CRASH_Z_DEVIATE:35%, TIMEOUT:5%, CRASH_FLOOR:2% | lr=4.53e-05
+
+[17825792 | phase1] reward=114.4 len=349.7 success=47.0% dist=4.7m | SUCCESS:47%,
+CRASH_Z_DEVIATE:41%, CRASH_FLOOR:7%, TIMEOUT:5% | lr=4.34e-05
+
+[17956864 | phase1] reward=121.0 len=317.9 success=52.0% dist=4.6m | CRASH_Z_DEVIATE:38%,
+SUCCESS:52%, CRASH_FLOOR:5%, TIMEOUT:4%, CRASH_LIDAR:1% | lr=4.15e-05
+
+[18087936 | phase1] reward=134.7 len=331.6 success=57.0% dist=4.0m | SUCCESS:57%,
+CRASH_Z_DEVIATE:34%, TIMEOUT:4%, CRASH_FLOOR:5% | lr=3.96e-05
+
+[18219008 | phase1] reward=139.1 len=295.1 success=61.0% dist=3.4m | SUCCESS:61%, TIMEOUT:2%,
+CRASH_Z_DEVIATE:33%, CRASH_FLOOR:4% | lr=3.77e-05
+
+[18350080 | phase1] reward=126.2 len=356.7 success=54.0% dist=4.3m | SUCCESS:54%,
+CRASH_Z_DEVIATE:39%, CRASH_FLOOR:3%, TIMEOUT:4% | lr=3.58e-05
+
+[18481152 | phase1] reward=143.3 len=384.3 success=60.0% dist=3.2m | CRASH_Z_DEVIATE:32%,
+TIMEOUT:5%, SUCCESS:60%, CRASH_LIDAR:1%, CRASH_FLOOR:2% | lr=3.39e-05
+
+[18612224 | phase1] reward=113.2 len=342.0 success=47.0% dist=4.7m | SUCCESS:47%,
+CRASH_Z_DEVIATE:45%, TIMEOUT:5%, CRASH_FLOOR:3% | lr=3.20e-05
+
+[18743296 | phase1] reward=130.6 len=366.1 success=51.0% dist=3.9m | TIMEOUT:8%,
+CRASH_Z_DEVIATE:40%, SUCCESS:51%, CRASH_FLOOR:1% | lr=3.01e-05
+
+[18874368 | phase1] reward=112.2 len=302.1 success=49.0% dist=4.1m | SUCCESS:49%,
+CRASH_Z_DEVIATE:44%, CRASH_FLOOR:4%, CRASH_LIDAR:1%, TIMEOUT:2% | lr=2.82e-05
+
+[19005440 | phase1] reward=117.2 len=291.4 success=49.0% dist=3.7m | SUCCESS:49%,
+CRASH_Z_DEVIATE:42%, TIMEOUT:5%, CRASH_FLOOR:4% | lr=2.63e-05
+
+[19136512 | phase1] reward=128.5 len=360.4 success=52.0% dist=4.1m | SUCCESS:52%,
+CRASH_Z_DEVIATE:35%, CRASH_FLOOR:7%, TIMEOUT:5%, CRASH_LIDAR:1% | lr=2.44e-05
+
+[19267584 | phase1] reward=136.6 len=356.9 success=57.0% dist=3.7m | SUCCESS:57%,
+CRASH_Z_DEVIATE:36%, CRASH_FLOOR:2%, TIMEOUT:4%, CRASH_LIDAR:1% | lr=2.25e-05
+
+[19398656 | phase1] reward=119.0 len=309.9 success=52.0% dist=4.9m | CRASH_Z_DEVIATE:40%,
+SUCCESS:52%, CRASH_FLOOR:5%, TIMEOUT:3% | lr=2.06e-05
+
+[19529728 | phase1] reward=138.7 len=342.8 success=57.0% dist=3.1m | CRASH_Z_DEVIATE:33%,
+SUCCESS:57%, CRASH_FLOOR:4%, TIMEOUT:6% | lr=1.87e-05
+
+[19660800 | phase1] reward=122.4 len=428.6 success=45.0% dist=4.6m | CRASH_Z_DEVIATE:38%,
+TIMEOUT:12%, SUCCESS:45%, CRASH_LIDAR:1%, CRASH_FLOOR:4% | lr=1.68e-05
+
+[19791872 | phase1] reward=125.8 len=410.7 success=49.0% dist=3.9m | SUCCESS:49%,
+CRASH_Z_DEVIATE:41%, TIMEOUT:6%, CRASH_FLOOR:3%, CRASH_LIDAR:1% | lr=1.49e-05
+
+[19922944 | phase1] reward=154.8 len=338.3 success=67.0% dist=3.3m | SUCCESS:67%,
+CRASH_Z_DEVIATE:25%, CRASH_FLOOR:3%, TIMEOUT:5% | lr=1.30e-05
+
+[20054016 | phase1] reward=109.9 len=334.6 success=47.0% dist=5.3m | CRASH_Z_DEVIATE:46%,
+CRASH_FLOOR:3%, TIMEOUT:4%, SUCCESS:47% | lr=1.11e-05
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20,054,016/20,000,000  [ 6:45:58 < 0:00:00 , 1,586 it/s ]
+
+>>> phase2: static=10 dynamic=2 goal=25.0m | 本阶段续训 19,945,984/20,000,000 步
+
+[20185088 | phase2] reward=17.7 len=126.0 success=19.0% dist=14.5m | CRASH_Z_DEVIATE:68%,
+SUCCESS:19%, CRASH_FLOOR:11%, CRASH_LIDAR:1%, TIMEOUT:1% | lr=9.22e-06
+
+[20316160 | phase2] reward=30.0 len=225.4 success=18.0% dist=12.7m | CRASH_Z_DEVIATE:65%,
+CRASH_FLOOR:9%, SUCCESS:18%, TIMEOUT:6%, CRASH_FLIP:1%, CRASH_LIDAR:1% | lr=1.54e-04
+
+[20447232 | phase2] reward=17.7 len=164.2 success=17.0% dist=13.4m | CRASH_FLOOR:14%,
+CRASH_Z_DEVIATE:69%, SUCCESS:17% | lr=1.53e-04
+
+[20578304 | phase2] reward=24.3 len=190.1 success=18.0% dist=12.9m | CRASH_Z_DEVIATE:68%,
+SUCCESS:18%, CRASH_FLOOR:10%, TIMEOUT:2%, CRASH_LIDAR:2% | lr=1.52e-04
+
+[20709376 | phase2] reward=51.7 len=222.3 success=28.0% dist=10.9m | CRASH_Z_DEVIATE:62%,
+SUCCESS:28%, CRASH_FLOOR:8%, TIMEOUT:2% | lr=1.51e-04
+
+[20840448 | phase2] reward=28.7 len=190.1 success=19.0% dist=12.2m | CRASH_Z_DEVIATE:68%,
+SUCCESS:19%, CRASH_FLOOR:10%, TIMEOUT:2%, CRASH_LIDAR:1% | lr=1.50e-04
+
+[20971520 | phase2] reward=12.0 len=172.3 success=13.0% dist=14.0m | CRASH_Z_DEVIATE:69%,
+CRASH_FLOOR:13%, SUCCESS:13%, TIMEOUT:2%, CRASH_LIDAR:3% | lr=1.49e-04
+
+[21102592 | phase2] reward=34.9 len=225.2 success=20.0% dist=12.4m | SUCCESS:20%,
+CRASH_Z_DEVIATE:71%, CRASH_LIDAR:2%, CRASH_FLOOR:4%, TIMEOUT:3% | lr=1.48e-04
+
+[21233664 | phase2] reward=15.2 len=154.8 success=15.0% dist=13.2m | CRASH_Z_DEVIATE:71%,
+TIMEOUT:1%, CRASH_LIDAR:2%, CRASH_FLOOR:11%, SUCCESS:15% | lr=1.47e-04
+
+[21364736 | phase2] reward=28.5 len=208.3 success=19.0% dist=12.5m | CRASH_Z_DEVIATE:70%,
+SUCCESS:19%, CRASH_FLOOR:8%, TIMEOUT:1%, CRASH_LIDAR:2% | lr=1.46e-04
+
+[21495808 | phase2] reward=31.6 len=212.0 success=20.0% dist=13.1m | CRASH_FLOOR:11%,
+CRASH_Z_DEVIATE:64%, SUCCESS:20%, CRASH_LIDAR:2%, TIMEOUT:3% | lr=1.45e-04
+
+[21626880 | phase2] reward=36.6 len=207.8 success=23.0% dist=12.4m | SUCCESS:23%, TIMEOUT:2%,
+CRASH_Z_DEVIATE:68%, CRASH_LIDAR:1%, CRASH_FLOOR:6% | lr=1.44e-04
+
+[21757952 | phase2] reward=41.6 len=258.3 success=22.0% dist=11.5m | CRASH_Z_DEVIATE:63%,
+SUCCESS:22%, CRASH_FLOOR:8%, CRASH_LIDAR:5%, TIMEOUT:2% | lr=1.43e-04
+
+[21889024 | phase2] reward=36.3 len=221.4 success=21.0% dist=12.5m | CRASH_Z_DEVIATE:59%,
+SUCCESS:21%, TIMEOUT:5%, CRASH_LIDAR:7%, CRASH_FLOOR:8% | lr=1.42e-04
+
+[22020096 | phase2] reward=53.1 len=213.1 success=31.0% dist=11.6m | CRASH_Z_DEVIATE:57%,
+SUCCESS:31%, CRASH_FLOOR:10%, TIMEOUT:1%, CRASH_LIDAR:1% | lr=1.41e-04
+
+[22151168 | phase2] reward=55.2 len=280.1 success=27.0% dist=10.6m | CRASH_Z_DEVIATE:62%,
+TIMEOUT:2%, SUCCESS:27%, CRASH_FLOOR:9% | lr=1.40e-04
+
+[22282240 | phase2] reward=27.8 len=239.3 success=18.0% dist=12.8m | SUCCESS:18%,
+CRASH_FLOOR:11%, CRASH_Z_DEVIATE:69%, TIMEOUT:2% | lr=1.39e-04
+
+[22413312 | phase2] reward=60.5 len=231.4 success=33.0% dist=10.8m | SUCCESS:33%,
+CRASH_Z_DEVIATE:61%, TIMEOUT:1%, CRASH_FLOOR:4%, CRASH_LIDAR:1% | lr=1.38e-04
+
+[22544384 | phase2] reward=61.4 len=231.0 success=33.0% dist=11.6m | SUCCESS:33%,
+CRASH_Z_DEVIATE:58%, CRASH_FLOOR:4%, TIMEOUT:2%, CRASH_LIDAR:3% | lr=1.38e-04
+
+[22675456 | phase2] reward=50.0 len=248.8 success=27.0% dist=11.7m | CRASH_Z_DEVIATE:61%,
+SUCCESS:27%, CRASH_FLOOR:7%, CRASH_LIDAR:3%, TIMEOUT:2% | lr=1.37e-04
+
+[22806528 | phase2] reward=61.0 len=262.9 success=30.0% dist=10.4m | SUCCESS:30%,
+CRASH_Z_DEVIATE:59%, TIMEOUT:4%, CRASH_FLOOR:7% | lr=1.36e-04
+
+[22937600 | phase2] reward=52.7 len=240.2 success=27.0% dist=10.7m | CRASH_Z_DEVIATE:61%,
+CRASH_FLOOR:10%, SUCCESS:27%, TIMEOUT:1%, CRASH_LIDAR:1% | lr=1.35e-04
+
+[23068672 | phase2] reward=53.1 len=226.9 success=29.0% dist=11.5m | SUCCESS:29%,
+CRASH_Z_DEVIATE:62%, TIMEOUT:3%, CRASH_FLOOR:4%, CRASH_LIDAR:2% | lr=1.34e-04
+
+[23199744 | phase2] reward=73.3 len=274.4 success=34.0% dist=9.9m | CRASH_FLOOR:8%,
+CRASH_Z_DEVIATE:50%, SUCCESS:34%, CRASH_LIDAR:2%, TIMEOUT:6% | lr=1.33e-04
+
+[23330816 | phase2] reward=77.8 len=262.9 success=38.0% dist=9.8m | CRASH_FLOOR:6%, SUCCESS:38%,
+CRASH_Z_DEVIATE:54%, CRASH_LIDAR:1%, TIMEOUT:1% | lr=1.32e-04
+
+[23461888 | phase2] reward=62.2 len=254.7 success=32.0% dist=11.0m | CRASH_FLOOR:9%,
+SUCCESS:32%, CRASH_Z_DEVIATE:54%, CRASH_FLIP:1%, TIMEOUT:4% | lr=1.31e-04
+
+[23592960 | phase2] reward=55.3 len=232.6 success=29.0% dist=10.2m | TIMEOUT:3%,
+CRASH_Z_DEVIATE:58%, SUCCESS:29%, CRASH_FLOOR:8%, CRASH_LIDAR:2% | lr=1.30e-04
+
+[23724032 | phase2] reward=54.8 len=251.6 success=28.0% dist=10.7m | SUCCESS:28%,
+CRASH_Z_DEVIATE:61%, CRASH_FLOOR:7%, CRASH_LIDAR:3%, TIMEOUT:1% | lr=1.29e-04
+
+[23855104 | phase2] reward=63.8 len=274.3 success=30.0% dist=9.7m | CRASH_Z_DEVIATE:58%,
+SUCCESS:30%, CRASH_LIDAR:4%, CRASH_FLOOR:4%, TIMEOUT:4% | lr=1.28e-04
+
+[23986176 | phase2] reward=52.0 len=220.5 success=29.0% dist=11.2m | CRASH_FLOOR:13%,
+CRASH_Z_DEVIATE:57%, SUCCESS:29%, TIMEOUT:1% | lr=1.27e-04
+
+[24117248 | phase2] reward=71.1 len=310.6 success=32.0% dist=9.3m | CRASH_Z_DEVIATE:57%,
+SUCCESS:32%, TIMEOUT:4%, CRASH_LIDAR:4%, CRASH_FLOOR:3% | lr=1.26e-04
+
+[24248320 | phase2] reward=61.5 len=262.2 success=30.0% dist=10.2m | CRASH_Z_DEVIATE:53%,
+CRASH_LIDAR:5%, SUCCESS:30%, CRASH_FLOOR:8%, TIMEOUT:4% | lr=1.25e-04
+
+[24379392 | phase2] reward=64.0 len=227.8 success=32.0% dist=10.1m | CRASH_Z_DEVIATE:61%,
+CRASH_FLIP:1%, SUCCESS:32%, TIMEOUT:3%, CRASH_LIDAR:2%, CRASH_FLOOR:1% | lr=1.24e-04
+
+[24510464 | phase2] reward=77.2 len=298.1 success=37.0% dist=9.9m | CRASH_Z_DEVIATE:55%,
+SUCCESS:37%, TIMEOUT:4%, CRASH_FLOOR:1%, CRASH_LIDAR:3% | lr=1.23e-04
+
+[24641536 | phase2] reward=35.1 len=230.7 success=21.0% dist=11.9m | CRASH_Z_DEVIATE:69%,
+CRASH_FLOOR:7%, SUCCESS:21%, CRASH_LIDAR:1%, TIMEOUT:2% | lr=1.22e-04
+
+[24772608 | phase2] reward=42.3 len=191.8 success=26.0% dist=11.6m | SUCCESS:26%,
+CRASH_Z_DEVIATE:60%, CRASH_FLOOR:10%, CRASH_LIDAR:4% | lr=1.21e-04
+
+[24903680 | phase2] reward=71.8 len=282.9 success=34.0% dist=10.4m | SUCCESS:34%,
+CRASH_Z_DEVIATE:55%, CRASH_FLOOR:8%, TIMEOUT:3% | lr=1.20e-04
+
+[25034752 | phase2] reward=45.6 len=246.7 success=24.0% dist=12.2m | SUCCESS:24%,
+CRASH_FLOOR:9%, CRASH_Z_DEVIATE:61%, TIMEOUT:5%, CRASH_FLIP:1% | lr=1.19e-04
+
+[25165824 | phase2] reward=64.4 len=238.2 success=33.0% dist=10.7m | CRASH_FLOOR:9%,
+SUCCESS:33%, CRASH_Z_DEVIATE:51%, CRASH_LIDAR:3%, TIMEOUT:3%, CRASH_FLIP:1% | lr=1.18e-04
+
+[25296896 | phase2] reward=58.4 len=221.5 success=32.0% dist=11.1m | CRASH_Z_DEVIATE:55%,
+SUCCESS:32%, CRASH_FLOOR:10%, CRASH_FLIP:1%, TIMEOUT:1%, CRASH_LIDAR:1% | lr=1.18e-04
+
+[25427968 | phase2] reward=57.7 len=248.2 success=29.0% dist=10.5m | CRASH_Z_DEVIATE:59%,
+SUCCESS:29%, TIMEOUT:3%, CRASH_FLOOR:6%, CRASH_LIDAR:3% | lr=1.17e-04
+
+[25559040 | phase2] reward=77.8 len=275.4 success=36.0% dist=9.2m | CRASH_Z_DEVIATE:51%,
+SUCCESS:36%, TIMEOUT:4%, CRASH_FLOOR:4%, CRASH_LIDAR:5% | lr=1.16e-04
+
+[25690112 | phase2] reward=54.4 len=243.1 success=27.0% dist=10.7m | CRASH_Z_DEVIATE:62%,
+SUCCESS:27%, CRASH_FLOOR:5%, TIMEOUT:5%, CRASH_LIDAR:1% | lr=1.15e-04
+
+[25821184 | phase2] reward=67.6 len=234.0 success=35.0% dist=10.5m | SUCCESS:35%,
+CRASH_Z_DEVIATE:57%, CRASH_LIDAR:3%, CRASH_FLOOR:3%, TIMEOUT:2% | lr=1.14e-04
+
+[25952256 | phase2] reward=70.0 len=274.7 success=34.0% dist=10.1m | CRASH_Z_DEVIATE:53%,
+SUCCESS:34%, CRASH_LIDAR:2%, CRASH_FLOOR:7%, TIMEOUT:4% | lr=1.13e-04
+
+[26083328 | phase2] reward=61.8 len=213.2 success=31.0% dist=9.7m | CRASH_Z_DEVIATE:59%,
+SUCCESS:31%, CRASH_FLOOR:6%, TIMEOUT:2%, CRASH_LIDAR:2% | lr=1.12e-04
+
+[26214400 | phase2] reward=67.8 len=258.5 success=33.0% dist=10.3m | CRASH_Z_DEVIATE:54%,
+SUCCESS:33%, CRASH_FLOOR:7%, TIMEOUT:3%, CRASH_FLIP:1%, CRASH_LIDAR:2% | lr=1.11e-04
+
+[26345472 | phase2] reward=66.5 len=246.1 success=35.0% dist=10.2m | CRASH_Z_DEVIATE:55%,
+SUCCESS:35%, CRASH_FLOOR:9%, CRASH_LIDAR:1% | lr=1.10e-04
+
+[26476544 | phase2] reward=73.0 len=265.9 success=36.0% dist=9.4m | SUCCESS:36%,
+CRASH_Z_DEVIATE:50%, TIMEOUT:3%, CRASH_FLOOR:5%, CRASH_LIDAR:5%, CRASH_FLIP:1% | lr=1.09e-04
+
+[26607616 | phase2] reward=59.2 len=295.3 success=28.0% dist=11.1m | CRASH_FLOOR:10%,
+CRASH_Z_DEVIATE:53%, SUCCESS:28%, TIMEOUT:5%, CRASH_LIDAR:4% | lr=1.08e-04
+
+[26738688 | phase2] reward=83.1 len=285.7 success=40.0% dist=8.5m | SUCCESS:40%,
+CRASH_Z_DEVIATE:48%, CRASH_FLOOR:7%, TIMEOUT:3%, CRASH_LIDAR:2% | lr=1.07e-04
+
+[26869760 | phase2] reward=66.9 len=236.2 success=34.0% dist=10.0m | CRASH_Z_DEVIATE:58%,
+SUCCESS:34%, CRASH_FLOOR:4%, TIMEOUT:3%, CRASH_LIDAR:1% | lr=1.06e-04
+
+[27000832 | phase2] reward=87.5 len=322.6 success=38.0% dist=8.5m | TIMEOUT:5%, SUCCESS:38%,
+CRASH_Z_DEVIATE:50%, CRASH_FLOOR:6%, CRASH_LIDAR:1% | lr=1.05e-04
+
+[27131904 | phase2] reward=68.1 len=290.1 success=32.0% dist=10.2m | CRASH_Z_DEVIATE:53%,
+SUCCESS:32%, TIMEOUT:4%, CRASH_FLOOR:9%, CRASH_FLIP:1%, CRASH_LIDAR:1% | lr=1.04e-04
+
+[27262976 | phase2] reward=84.0 len=281.3 success=38.0% dist=8.7m | CRASH_Z_DEVIATE:40%,
+CRASH_FLOOR:13%, SUCCESS:38%, TIMEOUT:5%, CRASH_LIDAR:4% | lr=1.03e-04
+
+[27394048 | phase2] reward=88.2 len=278.7 success=38.0% dist=7.3m | CRASH_Z_DEVIATE:53%,
+SUCCESS:38%, CRASH_FLOOR:3%, TIMEOUT:5%, CRASH_LIDAR:1% | lr=1.02e-04
+
+[27525120 | phase2] reward=67.4 len=302.3 success=30.0% dist=9.9m | CRASH_Z_DEVIATE:63%,
+CRASH_LIDAR:1%, SUCCESS:30%, CRASH_FLOOR:2%, TIMEOUT:4% | lr=1.01e-04
+
+[27656192 | phase2] reward=58.9 len=246.0 success=29.0% dist=11.1m | CRASH_Z_DEVIATE:55%,
+CRASH_LIDAR:5%, SUCCESS:29%, CRASH_FLOOR:5%, TIMEOUT:6% | lr=1.00e-04
+
+[27787264 | phase2] reward=94.9 len=355.7 success=38.0% dist=7.4m | SUCCESS:38%,
+CRASH_Z_DEVIATE:46%, CRASH_FLOOR:7%, TIMEOUT:7%, CRASH_FLIP:1%, CRASH_LIDAR:1% | lr=9.95e-05
+
+[27918336 | phase2] reward=86.8 len=297.7 success=38.0% dist=8.3m | CRASH_Z_DEVIATE:49%,
+SUCCESS:38%, CRASH_FLOOR:3%, CRASH_LIDAR:4%, TIMEOUT:6% | lr=9.85e-05
+
+[28049408 | phase2] reward=102.0 len=295.2 success=47.0% dist=7.6m | SUCCESS:47%,
+CRASH_Z_DEVIATE:40%, CRASH_FLOOR:9%, TIMEOUT:2%, CRASH_LIDAR:2% | lr=9.76e-05
+
+[28180480 | phase2] reward=68.6 len=292.3 success=31.0% dist=10.4m | CRASH_FLOOR:10%,
+CRASH_Z_DEVIATE:51%, SUCCESS:31%, TIMEOUT:6%, CRASH_LIDAR:1%, CRASH_FLIP:1% | lr=9.66e-05
+
+[28311552 | phase2] reward=77.3 len=285.5 success=36.0% dist=8.9m | CRASH_FLOOR:11%,
+CRASH_Z_DEVIATE:46%, SUCCESS:36%, CRASH_LIDAR:5%, TIMEOUT:2% | lr=9.57e-05
+
+[28442624 | phase2] reward=92.4 len=367.3 success=38.0% dist=7.8m | CRASH_Z_DEVIATE:50%,
+SUCCESS:38%, CRASH_FLOOR:5%, CRASH_LIDAR:4%, TIMEOUT:3% | lr=9.47e-05
+
+[28573696 | phase2] reward=99.6 len=307.1 success=45.0% dist=7.8m | CRASH_Z_DEVIATE:45%,
+SUCCESS:45%, CRASH_FLOOR:6%, TIMEOUT:3%, CRASH_LIDAR:1% | lr=9.38e-05
+
+[28704768 | phase2] reward=99.2 len=313.4 success=44.0% dist=7.7m | CRASH_Z_DEVIATE:46%,
+SUCCESS:44%, CRASH_FLOOR:6%, TIMEOUT:3%, CRASH_LIDAR:1% | lr=9.28e-05
+
+[28835840 | phase2] reward=99.9 len=330.3 success=45.0% dist=8.1m | CRASH_Z_DEVIATE:45%,
+SUCCESS:45%, CRASH_LIDAR:1%, TIMEOUT:5%, CRASH_FLOOR:4% | lr=9.19e-05
+
+[28966912 | phase2] reward=78.8 len=349.5 success=35.0% dist=9.9m | CRASH_Z_DEVIATE:48%,
+SUCCESS:35%, CRASH_FLOOR:8%, TIMEOUT:7%, CRASH_LIDAR:2% | lr=9.09e-05
+
+[29097984 | phase2] reward=89.1 len=317.8 success=38.0% dist=8.2m | CRASH_FLOOR:6%, SUCCESS:38%,
+CRASH_Z_DEVIATE:49%, CRASH_LIDAR:3%, TIMEOUT:4% | lr=9.00e-05
+
+[29229056 | phase2] reward=80.3 len=277.5 success=38.0% dist=9.3m | CRASH_Z_DEVIATE:55%,
+SUCCESS:38%, TIMEOUT:2%, CRASH_FLOOR:5% | lr=8.90e-05
+
+[29360128 | phase2] reward=76.9 len=255.7 success=37.0% dist=9.6m | CRASH_Z_DEVIATE:53%,
+SUCCESS:37%, CRASH_FLOOR:6%, TIMEOUT:2%, CRASH_LIDAR:2% | lr=8.81e-05
+
+[29491200 | phase2] reward=99.2 len=280.1 success=46.0% dist=7.3m | SUCCESS:46%,
+CRASH_Z_DEVIATE:48%, CRASH_FLOOR:3%, TIMEOUT:1%, CRASH_LIDAR:2% | lr=8.71e-05
+
+[29622272 | phase2] reward=89.5 len=259.0 success=43.0% dist=9.4m | CRASH_Z_DEVIATE:44%,
+SUCCESS:43%, TIMEOUT:4%, CRASH_FLOOR:8%, CRASH_LIDAR:1% | lr=8.62e-05
+
+[29753344 | phase2] reward=104.2 len=326.7 success=48.0% dist=8.6m | SUCCESS:48%,
+CRASH_Z_DEVIATE:42%, TIMEOUT:4%, CRASH_FLOOR:4%, CRASH_LIDAR:2% | lr=8.52e-05
+
+[29884416 | phase2] reward=95.9 len=309.2 success=43.0% dist=8.1m | SUCCESS:43%,
+CRASH_Z_DEVIATE:48%, CRASH_LIDAR:3%, TIMEOUT:4%, CRASH_FLOOR:2% | lr=8.43e-05
+
+[30015488 | phase2] reward=93.2 len=296.3 success=43.0% dist=8.6m | TIMEOUT:5%, SUCCESS:43%,
+CRASH_Z_DEVIATE:47%, CRASH_LIDAR:3%, CRASH_FLOOR:2% | lr=8.33e-05
+
+[30146560 | phase2] reward=103.0 len=292.4 success=46.0% dist=8.4m | SUCCESS:46%,
+CRASH_Z_DEVIATE:40%, CRASH_FLOOR:5%, TIMEOUT:7%, CRASH_LIDAR:2% | lr=8.24e-05
+
+[30277632 | phase2] reward=87.3 len=347.3 success=40.0% dist=9.2m | SUCCESS:40%,
+CRASH_Z_DEVIATE:45%, CRASH_FLOOR:3%, TIMEOUT:6%, CRASH_LIDAR:5%, CRASH_FLIP:1% | lr=8.14e-05
+
+[30408704 | phase2] reward=88.1 len=276.2 success=42.0% dist=9.4m | SUCCESS:42%,
+CRASH_Z_DEVIATE:40%, CRASH_FLOOR:10%, TIMEOUT:5%, CRASH_FLIP:1%, CRASH_LIDAR:2% | lr=8.05e-05
+
+[30539776 | phase2] reward=106.6 len=325.5 success=48.0% dist=7.5m | CRASH_Z_DEVIATE:40%,
+CRASH_FLOOR:4%, SUCCESS:48%, CRASH_LIDAR:4%, TIMEOUT:4% | lr=7.95e-05
+
+[30670848 | phase2] reward=98.3 len=272.6 success=46.0% dist=8.2m | CRASH_LIDAR:1%,
+CRASH_Z_DEVIATE:47%, SUCCESS:46%, TIMEOUT:3%, CRASH_FLIP:1%, CRASH_FLOOR:2% | lr=7.86e-05
+
+[30801920 | phase2] reward=91.3 len=271.6 success=44.0% dist=8.1m | SUCCESS:44%, CRASH_FLIP:1%,
+CRASH_LIDAR:3%, CRASH_Z_DEVIATE:44%, TIMEOUT:1%, CRASH_FLOOR:7% | lr=7.76e-05
+
+[30932992 | phase2] reward=87.8 len=308.5 success=40.0% dist=8.6m | SUCCESS:40%,
+CRASH_Z_DEVIATE:49%, TIMEOUT:3%, CRASH_FLOOR:7%, CRASH_LIDAR:1% | lr=7.67e-05
+
+[31064064 | phase2] reward=91.9 len=263.4 success=44.0% dist=7.7m | SUCCESS:44%, TIMEOUT:1%,
+CRASH_Z_DEVIATE:47%, CRASH_FLOOR:4%, CRASH_LIDAR:4% | lr=7.57e-05
+
+[31195136 | phase2] reward=107.9 len=342.2 success=48.0% dist=7.8m | SUCCESS:48%,
+CRASH_Z_DEVIATE:36%, CRASH_FLOOR:9%, CRASH_LIDAR:3%, TIMEOUT:4% | lr=7.48e-05
+
+[31326208 | phase2] reward=99.9 len=313.7 success=46.0% dist=7.5m | SUCCESS:46%,
+CRASH_Z_DEVIATE:41%, CRASH_FLOOR:12%, TIMEOUT:1% | lr=7.38e-05
+
+[31457280 | phase2] reward=88.1 len=292.1 success=40.0% dist=8.2m | CRASH_Z_DEVIATE:49%,
+SUCCESS:40%, CRASH_FLOOR:5%, CRASH_LIDAR:4%, TIMEOUT:2% | lr=7.29e-05
+
+[31588352 | phase2] reward=100.9 len=258.6 success=49.0% dist=8.1m | CRASH_Z_DEVIATE:39%,
+CRASH_FLOOR:8%, SUCCESS:49%, CRASH_LIDAR:2%, TIMEOUT:2% | lr=7.19e-05
+
+[31719424 | phase2] reward=75.3 len=312.7 success=32.0% dist=8.8m | TIMEOUT:7%, SUCCESS:32%,
+CRASH_Z_DEVIATE:55%, CRASH_LIDAR:2%, CRASH_FLOOR:4% | lr=7.10e-05
+
+[31850496 | phase2] reward=97.2 len=293.9 success=43.0% dist=7.6m | CRASH_Z_DEVIATE:50%,
+SUCCESS:43%, TIMEOUT:3%, CRASH_FLOOR:2%, CRASH_LIDAR:2% | lr=7.00e-05
+
+[31981568 | phase2] reward=94.4 len=313.9 success=42.0% dist=8.2m | CRASH_Z_DEVIATE:47%,
+TIMEOUT:5%, SUCCESS:42%, CRASH_FLOOR:5%, CRASH_LIDAR:1% | lr=6.91e-05
+
+[32112640 | phase2] reward=85.2 len=296.9 success=39.0% dist=8.5m | CRASH_Z_DEVIATE:49%,
+SUCCESS:39%, TIMEOUT:4%, CRASH_FLOOR:5%, CRASH_LIDAR:3% | lr=6.81e-05
+
+[32243712 | phase2] reward=75.9 len=259.6 success=36.0% dist=9.1m | CRASH_LIDAR:4%,
+CRASH_Z_DEVIATE:47%, SUCCESS:36%, CRASH_FLOOR:11%, TIMEOUT:2% | lr=6.72e-05
+
+[32374784 | phase2] reward=82.8 len=238.8 success=40.0% dist=8.2m | CRASH_Z_DEVIATE:45%,
+SUCCESS:40%, CRASH_FLOOR:9%, TIMEOUT:1%, CRASH_LIDAR:5% | lr=6.62e-05
+
+[32505856 | phase2] reward=91.3 len=294.0 success=41.0% dist=8.2m | CRASH_Z_DEVIATE:48%,
+CRASH_FLOOR:4%, CRASH_LIDAR:5%, SUCCESS:41%, TIMEOUT:2% | lr=6.53e-05
+
+[32636928 | phase2] reward=87.5 len=305.8 success=39.0% dist=8.9m | CRASH_Z_DEVIATE:49%,
+SUCCESS:39%, CRASH_FLOOR:3%, TIMEOUT:7%, CRASH_LIDAR:2% | lr=6.43e-05
+
+[32768000 | phase2] reward=97.6 len=345.8 success=42.0% dist=7.9m | SUCCESS:42%,
+CRASH_Z_DEVIATE:45%, TIMEOUT:6%, CRASH_FLOOR:3%, CRASH_LIDAR:4% | lr=6.34e-05
+
+[32899072 | phase2] reward=95.6 len=291.5 success=44.0% dist=8.0m | CRASH_Z_DEVIATE:48%,
+SUCCESS:44%, CRASH_FLOOR:4%, CRASH_LIDAR:3%, TIMEOUT:1% | lr=6.24e-05
+
+[33030144 | phase2] reward=103.4 len=298.3 success=48.0% dist=8.3m | SUCCESS:48%,
+CRASH_FLOOR:7%, CRASH_Z_DEVIATE:39%, TIMEOUT:5%, CRASH_LIDAR:1% | lr=6.15e-05
+
+[33161216 | phase2] reward=105.0 len=347.6 success=45.0% dist=7.6m | CRASH_Z_DEVIATE:44%,
+SUCCESS:45%, TIMEOUT:6%, CRASH_FLOOR:4%, CRASH_LIDAR:1% | lr=6.05e-05
+
+[33292288 | phase2] reward=80.8 len=280.5 success=37.0% dist=9.4m | CRASH_Z_DEVIATE:50%,
+SUCCESS:37%, TIMEOUT:5%, CRASH_FLOOR:7%, CRASH_LIDAR:1% | lr=5.96e-05
+
+[33423360 | phase2] reward=109.8 len=261.1 success=52.0% dist=7.2m | CRASH_Z_DEVIATE:36%,
+SUCCESS:52%, CRASH_FLOOR:8%, CRASH_LIDAR:3%, TIMEOUT:1% | lr=5.86e-05
+
+[33554432 | phase2] reward=100.2 len=282.4 success=46.0% dist=8.0m | CRASH_Z_DEVIATE:42%,
+TIMEOUT:4%, SUCCESS:46%, CRASH_FLOOR:6%, CRASH_LIDAR:2% | lr=5.77e-05
+
+[33685504 | phase2] reward=70.3 len=255.2 success=33.0% dist=9.2m | CRASH_Z_DEVIATE:52%,
+SUCCESS:33%, CRASH_FLOOR:7%, TIMEOUT:3%, CRASH_LIDAR:5% | lr=5.67e-05
+
+[33816576 | phase2] reward=90.5 len=282.3 success=41.0% dist=8.8m | TIMEOUT:6%, SUCCESS:41%,
+CRASH_Z_DEVIATE:46%, CRASH_LIDAR:2%, CRASH_FLOOR:5% | lr=5.58e-05
+
+[33947648 | phase2] reward=91.4 len=315.1 success=41.0% dist=8.2m | CRASH_Z_DEVIATE:47%,
+CRASH_FLOOR:3%, SUCCESS:41%, CRASH_LIDAR:4%, TIMEOUT:5% | lr=5.48e-05
+
+[34078720 | phase2] reward=109.8 len=325.1 success=49.0% dist=7.3m | CRASH_Z_DEVIATE:37%,
+CRASH_LIDAR:4%, CRASH_FLOOR:6%, SUCCESS:49%, TIMEOUT:4% | lr=5.39e-05
+
+[34209792 | phase2] reward=84.9 len=262.6 success=41.0% dist=8.5m | SUCCESS:41%,
+CRASH_Z_DEVIATE:44%, CRASH_LIDAR:7%, CRASH_FLOOR:7%, TIMEOUT:1% | lr=5.29e-05
+
+[34340864 | phase2] reward=119.7 len=332.1 success=54.0% dist=6.6m | SUCCESS:54%,
+CRASH_Z_DEVIATE:35%, CRASH_FLOOR:5%, TIMEOUT:3%, CRASH_LIDAR:3% | lr=5.20e-05
+
+[34471936 | phase2] reward=86.0 len=298.6 success=39.0% dist=8.9m | CRASH_Z_DEVIATE:48%,
+SUCCESS:39%, CRASH_FLOOR:5%, TIMEOUT:4%, CRASH_FLIP:1%, CRASH_LIDAR:3% | lr=5.10e-05
+
+[34603008 | phase2] reward=81.3 len=294.4 success=37.0% dist=9.0m | CRASH_Z_DEVIATE:42%,
+SUCCESS:37%, TIMEOUT:4%, CRASH_FLOOR:12%, CRASH_LIDAR:5% | lr=5.01e-05
+
+[34734080 | phase2] reward=89.0 len=262.1 success=43.0% dist=8.4m | CRASH_Z_DEVIATE:47%,
+SUCCESS:43%, CRASH_LIDAR:5%, CRASH_FLOOR:2%, TIMEOUT:3% | lr=4.91e-05
+
+[34865152 | phase2] reward=101.4 len=249.4 success=49.0% dist=7.8m | SUCCESS:49%,
+CRASH_Z_DEVIATE:42%, CRASH_FLOOR:5%, CRASH_LIDAR:3%, TIMEOUT:1% | lr=4.82e-05
+
+[34996224 | phase2] reward=88.9 len=326.8 success=38.0% dist=8.4m | CRASH_Z_DEVIATE:51%,
+TIMEOUT:5%, SUCCESS:38%, CRASH_FLOOR:4%, CRASH_LIDAR:2% | lr=4.72e-05
+
+[35127296 | phase2] reward=105.5 len=291.6 success=48.0% dist=7.6m | TIMEOUT:4%, SUCCESS:48%,
+CRASH_Z_DEVIATE:39%, CRASH_FLOOR:6%, CRASH_LIDAR:3% | lr=4.63e-05
+
+[35258368 | phase2] reward=91.3 len=261.3 success=42.0% dist=8.1m | SUCCESS:42%,
+CRASH_Z_DEVIATE:45%, CRASH_FLOOR:9%, TIMEOUT:3%, CRASH_LIDAR:1% | lr=4.53e-05
+
+[35389440 | phase2] reward=103.1 len=268.6 success=48.0% dist=8.0m | SUCCESS:48%,
+CRASH_Z_DEVIATE:46%, CRASH_LIDAR:2%, CRASH_FLOOR:2%, TIMEOUT:2% | lr=4.44e-05
+
+[35520512 | phase2] reward=98.9 len=305.3 success=44.0% dist=8.3m | CRASH_Z_DEVIATE:44%,
+SUCCESS:44%, TIMEOUT:5%, CRASH_LIDAR:3%, CRASH_FLOOR:4% | lr=4.34e-05
+
+[35651584 | phase2] reward=93.0 len=284.3 success=43.0% dist=8.4m | CRASH_FLOOR:10%,
+CRASH_Z_DEVIATE:40%, SUCCESS:43%, TIMEOUT:5%, CRASH_LIDAR:2% | lr=4.25e-05
+
+[35782656 | phase2] reward=109.8 len=250.4 success=53.0% dist=7.8m | CRASH_Z_DEVIATE:37%,
+SUCCESS:53%, CRASH_LIDAR:3%, CRASH_FLOOR:6%, TIMEOUT:1% | lr=4.15e-05
+
+[35913728 | phase2] reward=94.1 len=250.4 success=45.0% dist=8.5m | CRASH_Z_DEVIATE:44%,
+SUCCESS:45%, CRASH_FLOOR:5%, TIMEOUT:3%, CRASH_LIDAR:3% | lr=4.06e-05
+
+[36044800 | phase2] reward=112.3 len=301.3 success=52.0% dist=8.4m | SUCCESS:52%,
+CRASH_Z_DEVIATE:34%, CRASH_LIDAR:6%, TIMEOUT:5%, CRASH_FLOOR:3% | lr=3.96e-05
+
+[36175872 | phase2] reward=88.2 len=317.7 success=37.0% dist=8.0m | CRASH_Z_DEVIATE:47%,
+SUCCESS:37%, CRASH_FLOOR:7%, CRASH_FLIP:1%, TIMEOUT:7%, CRASH_LIDAR:1% | lr=3.87e-05
+
+[36306944 | phase2] reward=101.7 len=325.9 success=43.0% dist=7.5m | SUCCESS:43%,
+CRASH_Z_DEVIATE:47%, CRASH_FLOOR:3%, TIMEOUT:6%, CRASH_LIDAR:1% | lr=3.77e-05
+
+[36438016 | phase2] reward=98.3 len=244.2 success=47.0% dist=7.5m | SUCCESS:47%, CRASH_LIDAR:8%,
+CRASH_Z_DEVIATE:41%, CRASH_FLOOR:4% | lr=3.68e-05
+
+[36569088 | phase2] reward=98.7 len=281.9 success=44.0% dist=8.2m | SUCCESS:44%,
+CRASH_Z_DEVIATE:39%, TIMEOUT:5%, CRASH_LIDAR:9%, CRASH_FLOOR:3% | lr=3.58e-05
+
+[36700160 | phase2] reward=109.0 len=342.3 success=45.0% dist=6.9m | CRASH_Z_DEVIATE:45%,
+CRASH_FLOOR:4%, SUCCESS:45%, TIMEOUT:5%, CRASH_LIDAR:1% | lr=3.49e-05
+
+[36831232 | phase2] reward=93.5 len=281.1 success=42.0% dist=7.8m | CRASH_Z_DEVIATE:41%,
+SUCCESS:42%, CRASH_LIDAR:4%, CRASH_FLOOR:9%, TIMEOUT:4% | lr=3.39e-05
+
+[36962304 | phase2] reward=122.0 len=355.1 success=52.0% dist=6.4m | SUCCESS:52%,
+CRASH_Z_DEVIATE:35%, CRASH_FLOOR:6%, TIMEOUT:4%, CRASH_LIDAR:3% | lr=3.30e-05
+
+[37093376 | phase2] reward=111.0 len=305.2 success=50.0% dist=7.5m | SUCCESS:50%, TIMEOUT:3%,
+CRASH_Z_DEVIATE:43%, CRASH_FLOOR:2%, CRASH_LIDAR:2% | lr=3.20e-05
+
+[37224448 | phase2] reward=117.7 len=300.2 success=54.0% dist=6.5m | SUCCESS:54%,
+CRASH_Z_DEVIATE:38%, CRASH_LIDAR:3%, CRASH_FLOOR:4%, TIMEOUT:1% | lr=3.11e-05
+
+[37355520 | phase2] reward=113.8 len=328.6 success=53.0% dist=7.9m | CRASH_LIDAR:3%,
+CRASH_Z_DEVIATE:37%, SUCCESS:53%, TIMEOUT:3%, CRASH_FLOOR:4% | lr=3.01e-05
+
+[37486592 | phase2] reward=109.3 len=304.7 success=49.0% dist=7.4m | SUCCESS:49%,
+CRASH_Z_DEVIATE:37%, CRASH_FLOOR:6%, CRASH_LIDAR:6%, TIMEOUT:2% | lr=2.92e-05
+
+[37617664 | phase2] reward=124.3 len=353.0 success=54.0% dist=6.2m | TIMEOUT:4%,
+CRASH_Z_DEVIATE:39%, SUCCESS:54%, CRASH_FLOOR:3% | lr=2.82e-05
+
+[37748736 | phase2] reward=117.9 len=326.7 success=53.0% dist=6.9m | SUCCESS:53%,
+CRASH_LIDAR:2%, CRASH_Z_DEVIATE:39%, CRASH_FLOOR:3%, TIMEOUT:3% | lr=2.73e-05
+
+[37879808 | phase2] reward=105.0 len=304.7 success=46.0% dist=7.7m | CRASH_Z_DEVIATE:41%,
+SUCCESS:46%, CRASH_LIDAR:5%, CRASH_FLOOR:4%, TIMEOUT:4% | lr=2.63e-05
+
+[38010880 | phase2] reward=121.5 len=294.9 success=54.0% dist=7.0m | CRASH_Z_DEVIATE:37%,
+SUCCESS:54%, TIMEOUT:4%, CRASH_FLOOR:4%, CRASH_LIDAR:1% | lr=2.54e-05
+
+[38141952 | phase2] reward=108.5 len=309.2 success=47.0% dist=7.6m | SUCCESS:47%,
+CRASH_Z_DEVIATE:39%, CRASH_LIDAR:4%, TIMEOUT:6%, CRASH_FLOOR:4% | lr=2.44e-05
+
+[38273024 | phase2] reward=95.4 len=324.7 success=40.0% dist=7.3m | SUCCESS:40%,
+CRASH_Z_DEVIATE:47%, CRASH_FLOOR:3%, CRASH_LIDAR:5%, TIMEOUT:5% | lr=2.35e-05
+
+[38404096 | phase2] reward=109.2 len=328.6 success=48.0% dist=6.9m | SUCCESS:48%,
+CRASH_Z_DEVIATE:43%, CRASH_FLOOR:6%, CRASH_LIDAR:1%, TIMEOUT:2% | lr=2.25e-05
+
+[38535168 | phase2] reward=108.1 len=327.1 success=48.0% dist=7.3m | SUCCESS:48%,
+CRASH_Z_DEVIATE:40%, CRASH_FLOOR:6%, CRASH_LIDAR:4%, TIMEOUT:2% | lr=2.16e-05
+
+[38666240 | phase2] reward=102.7 len=294.3 success=46.0% dist=8.0m | SUCCESS:46%,
+CRASH_Z_DEVIATE:39%, CRASH_FLIP:1%, CRASH_LIDAR:4%, TIMEOUT:4%, CRASH_FLOOR:6% | lr=2.06e-05
+
+[38797312 | phase2] reward=121.1 len=340.5 success=53.0% dist=6.6m | SUCCESS:53%,
+CRASH_Z_DEVIATE:38%, TIMEOUT:4%, CRASH_FLOOR:3%, CRASH_LIDAR:2% | lr=1.97e-05
+
+[38928384 | phase2] reward=118.4 len=291.2 success=52.0% dist=5.7m | CRASH_Z_DEVIATE:40%,
+CRASH_LIDAR:3%, SUCCESS:52%, TIMEOUT:2%, CRASH_FLOOR:3% | lr=1.87e-05
+
+[39059456 | phase2] reward=106.9 len=290.5 success=48.0% dist=7.2m | CRASH_Z_DEVIATE:42%,
+SUCCESS:48%, TIMEOUT:4%, CRASH_FLOOR:3%, CRASH_LIDAR:3% | lr=1.78e-05
+
+[39190528 | phase2] reward=97.0 len=306.3 success=44.0% dist=7.1m | CRASH_Z_DEVIATE:39%,
+CRASH_LIDAR:6%, CRASH_FLOOR:8%, SUCCESS:44%, TIMEOUT:2%, CRASH_FLIP:1% | lr=1.68e-05
+
+[39321600 | phase2] reward=99.2 len=273.0 success=46.0% dist=8.4m | SUCCESS:46%,
+CRASH_Z_DEVIATE:41%, CRASH_FLOOR:5%, CRASH_LIDAR:4%, TIMEOUT:4% | lr=1.59e-05
+
+[39452672 | phase2] reward=98.9 len=270.6 success=48.0% dist=8.4m | SUCCESS:48%,
+CRASH_Z_DEVIATE:40%, CRASH_FLOOR:10%, TIMEOUT:1%, CRASH_LIDAR:1% | lr=1.49e-05
+
+[39583744 | phase2] reward=100.3 len=290.2 success=46.0% dist=8.6m | SUCCESS:46%,
+CRASH_FLOOR:8%, CRASH_Z_DEVIATE:40%, CRASH_LIDAR:4%, TIMEOUT:2% | lr=1.40e-05
+
+[39714816 | phase2] reward=107.3 len=335.0 success=47.0% dist=7.7m | CRASH_Z_DEVIATE:43%,
+SUCCESS:47%, TIMEOUT:5%, CRASH_FLOOR:3%, CRASH_LIDAR:2% | lr=1.30e-05
+
+[39845888 | phase2] reward=113.7 len=325.2 success=49.0% dist=7.3m | SUCCESS:49%,
+CRASH_Z_DEVIATE:37%, TIMEOUT:6%, CRASH_FLOOR:3%, CRASH_LIDAR:5% | lr=1.21e-05
+
+[39976960 | phase2] reward=114.8 len=315.3 success=51.0% dist=6.4m | SUCCESS:51%,
+CRASH_Z_DEVIATE:41%, TIMEOUT:2%, CRASH_FLOOR:2%, CRASH_LIDAR:4% | lr=1.11e-05
+
+[40108032 | phase2] reward=108.3 len=342.0 success=48.0% dist=7.2m | CRASH_Z_DEVIATE:46%,
+SUCCESS:48%, CRASH_FLOOR:3%, TIMEOUT:3% | lr=1.02e-05
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20,054,016/19,945,984  [ 5:14:42 < 0:00:00 , 717 it/s ]
+
+>>> phase3: static=25 dynamic=4 goal=45.0m | 本阶段续训 19,891,968/20,000,000 步
+
+[40239104 | phase3] reward=-24.3 len=90.1 success=2.0% dist=30.6m | CRASH_Z_DEVIATE:81%,
+CRASH_FLOOR:14%, SUCCESS:2%, CRASH_FLIP:2%, CRASH_LIDAR:1% | lr=9.22e-06
+
+[40370176 | phase3] reward=-12.8 len=110.9 success=4.0% dist=28.8m | CRASH_FLOOR:14%,
+CRASH_Z_DEVIATE:75%, SUCCESS:4%, TIMEOUT:1%, CRASH_LIDAR:6% | lr=1.06e-04
+
+[40501248 | phase3] reward=-21.2 len=116.7 success=0.0% dist=29.5m | CRASH_Z_DEVIATE:84%,
+CRASH_FLOOR:11%, CRASH_LIDAR:5% | lr=1.05e-04
+
+[40632320 | phase3] reward=-8.2 len=110.1 success=5.0% dist=28.4m | CRASH_Z_DEVIATE:77%,
+CRASH_FLOOR:11%, CRASH_LIDAR:6%, SUCCESS:5%, CRASH_FLIP:1% | lr=1.04e-04
+
+[40763392 | phase3] reward=-12.0 len=101.5 success=4.0% dist=27.7m | CRASH_Z_DEVIATE:79%,
+CRASH_LIDAR:8%, SUCCESS:4%, CRASH_FLOOR:9% | lr=1.04e-04
+
+[40894464 | phase3] reward=-20.7 len=91.2 success=3.0% dist=29.9m | CRASH_Z_DEVIATE:80%,
+CRASH_FLOOR:12%, SUCCESS:3%, CRASH_LIDAR:5% | lr=1.03e-04
+
+[41025536 | phase3] reward=-5.8 len=133.0 success=6.0% dist=28.4m | TIMEOUT:2%,
+CRASH_Z_DEVIATE:78%, CRASH_FLOOR:9%, SUCCESS:6%, CRASH_LIDAR:5% | lr=1.02e-04
+
+[41156608 | phase3] reward=-12.3 len=117.3 success=3.0% dist=27.6m | CRASH_Z_DEVIATE:77%,
+CRASH_LIDAR:11%, CRASH_FLOOR:8%, CRASH_FLIP:1%, SUCCESS:3% | lr=1.02e-04
+
+[41287680 | phase3] reward=-8.2 len=116.9 success=3.0% dist=26.3m | CRASH_Z_DEVIATE:76%,
+CRASH_FLOOR:11%, CRASH_LIDAR:10%, SUCCESS:3% | lr=1.01e-04
+
+[41418752 | phase3] reward=1.5 len=151.8 success=6.0% dist=25.7m | CRASH_Z_DEVIATE:70%,
+CRASH_LIDAR:9%, CRASH_FLOOR:15%, SUCCESS:6% | lr=1.00e-04
+
+[41549824 | phase3] reward=-8.7 len=127.2 success=3.0% dist=26.3m | CRASH_Z_DEVIATE:80%,
+CRASH_LIDAR:8%, CRASH_FLOOR:9%, SUCCESS:3% | lr=9.98e-05
+
+[41680896 | phase3] reward=-7.2 len=132.6 success=4.0% dist=27.5m | CRASH_Z_DEVIATE:82%,
+SUCCESS:4%, CRASH_LIDAR:9%, CRASH_FLOOR:5% | lr=9.92e-05
+
+[41811968 | phase3] reward=-7.1 len=138.8 success=2.0% dist=26.2m | CRASH_FLIP:1%,
+CRASH_FLOOR:12%, CRASH_LIDAR:8%, CRASH_Z_DEVIATE:76%, TIMEOUT:1%, SUCCESS:2% | lr=9.85e-05
+
+[41943040 | phase3] reward=-10.7 len=133.4 success=3.0% dist=27.6m | CRASH_FLOOR:9%,
+CRASH_Z_DEVIATE:81%, SUCCESS:3%, CRASH_LIDAR:7% | lr=9.79e-05
+
+[42074112 | phase3] reward=-5.8 len=130.5 success=5.0% dist=27.6m | CRASH_FLOOR:15%,
+CRASH_Z_DEVIATE:72%, SUCCESS:5%, CRASH_LIDAR:8% | lr=9.73e-05
+
+[42205184 | phase3] reward=8.5 len=169.9 success=7.0% dist=25.0m | SUCCESS:7%,
+CRASH_Z_DEVIATE:74%, CRASH_LIDAR:8%, CRASH_FLOOR:9%, TIMEOUT:2% | lr=9.66e-05
+
+[42336256 | phase3] reward=7.7 len=160.0 success=8.0% dist=24.6m | CRASH_Z_DEVIATE:67%,
+CRASH_FLOOR:10%, CRASH_LIDAR:14%, SUCCESS:8%, TIMEOUT:1% | lr=9.60e-05
+
+[42467328 | phase3] reward=4.6 len=148.0 success=8.0% dist=26.1m | CRASH_Z_DEVIATE:73%,
+CRASH_LIDAR:11%, SUCCESS:8%, CRASH_FLOOR:8% | lr=9.54e-05
+
+[42598400 | phase3] reward=1.1 len=150.6 success=6.0% dist=26.2m | CRASH_Z_DEVIATE:73%,
+CRASH_FLOOR:8%, CRASH_LIDAR:12%, SUCCESS:6%, CRASH_FLIP:1% | lr=9.47e-05
+
+[42729472 | phase3] reward=13.2 len=179.1 success=9.0% dist=23.6m | CRASH_FLOOR:6%,
+CRASH_LIDAR:10%, CRASH_Z_DEVIATE:74%, SUCCESS:9%, TIMEOUT:1% | lr=9.41e-05
+
+[42860544 | phase3] reward=9.3 len=139.3 success=9.0% dist=25.2m | CRASH_Z_DEVIATE:76%,
+CRASH_LIDAR:6%, SUCCESS:9%, CRASH_FLOOR:9% | lr=9.35e-05
+
+[42991616 | phase3] reward=17.7 len=175.9 success=12.0% dist=25.4m | CRASH_Z_DEVIATE:75%,
+CRASH_FLOOR:5%, CRASH_LIDAR:7%, SUCCESS:12%, TIMEOUT:1% | lr=9.28e-05
+
+[43122688 | phase3] reward=-4.4 len=170.4 success=3.0% dist=27.3m | CRASH_Z_DEVIATE:72%,
+CRASH_LIDAR:12%, CRASH_FLOOR:12%, SUCCESS:3%, TIMEOUT:1% | lr=9.22e-05
+
+[43253760 | phase3] reward=-5.0 len=117.4 success=4.0% dist=26.0m | CRASH_Z_DEVIATE:68%,
+CRASH_FLOOR:13%, CRASH_LIDAR:15%, SUCCESS:4% | lr=9.16e-05
+
+[43384832 | phase3] reward=1.8 len=156.8 success=6.0% dist=26.3m | CRASH_LIDAR:6%,
+CRASH_Z_DEVIATE:74%, CRASH_FLOOR:14%, SUCCESS:6% | lr=9.09e-05
+
+[43515904 | phase3] reward=16.3 len=207.3 success=9.0% dist=25.2m | CRASH_Z_DEVIATE:75%,
+CRASH_LIDAR:5%, SUCCESS:9%, CRASH_FLOOR:9%, TIMEOUT:2% | lr=9.03e-05
+
+[43646976 | phase3] reward=35.2 len=241.2 success=15.0% dist=22.1m | CRASH_FLOOR:9%,
+CRASH_Z_DEVIATE:65%, CRASH_LIDAR:9%, SUCCESS:15%, TIMEOUT:1%, CRASH_FLIP:1% | lr=8.97e-05
+
+[43778048 | phase3] reward=19.3 len=196.1 success=7.0% dist=22.6m | CRASH_Z_DEVIATE:75%,
+CRASH_LIDAR:10%, SUCCESS:7%, CRASH_FLOOR:6%, TIMEOUT:2% | lr=8.90e-05
+
+[43909120 | phase3] reward=12.5 len=189.3 success=8.0% dist=23.1m | CRASH_Z_DEVIATE:67%,
+CRASH_LIDAR:15%, SUCCESS:8%, CRASH_FLOOR:10% | lr=8.84e-05
+
+[44040192 | phase3] reward=15.9 len=154.9 success=11.0% dist=24.2m | CRASH_Z_DEVIATE:76%,
+CRASH_LIDAR:8%, CRASH_FLOOR:5%, SUCCESS:11% | lr=8.78e-05
+
+[44171264 | phase3] reward=19.5 len=181.4 success=11.0% dist=23.2m | CRASH_Z_DEVIATE:64%,
+CRASH_FLOOR:10%, CRASH_LIDAR:15%, SUCCESS:11% | lr=8.71e-05
+
+[44302336 | phase3] reward=23.7 len=198.2 success=11.0% dist=22.7m | CRASH_Z_DEVIATE:65%,
+CRASH_LIDAR:12%, CRASH_FLOOR:11%, SUCCESS:11%, TIMEOUT:1% | lr=8.65e-05
+
+[44433408 | phase3] reward=35.1 len=235.2 success=14.0% dist=21.3m | SUCCESS:14%,
+CRASH_Z_DEVIATE:71%, CRASH_FLOOR:3%, CRASH_LIDAR:10%, TIMEOUT:1%, CRASH_FLIP:1% | lr=8.59e-05
+
+[44564480 | phase3] reward=35.9 len=210.6 success=15.0% dist=21.0m | CRASH_Z_DEVIATE:66%,
+SUCCESS:15%, CRASH_FLOOR:8%, TIMEOUT:2%, CRASH_LIDAR:9% | lr=8.52e-05
+
+[44695552 | phase3] reward=5.3 len=176.8 success=5.0% dist=25.7m | CRASH_Z_DEVIATE:72%,
+CRASH_LIDAR:16%, SUCCESS:5%, CRASH_FLOOR:7% | lr=8.46e-05
+
+[44826624 | phase3] reward=47.7 len=252.4 success=17.0% dist=19.7m | CRASH_Z_DEVIATE:59%,
+SUCCESS:17%, TIMEOUT:3%, CRASH_LIDAR:12%, CRASH_FLOOR:9% | lr=8.40e-05
+
+[44957696 | phase3] reward=21.7 len=184.7 success=11.0% dist=22.3m | CRASH_Z_DEVIATE:68%,
+CRASH_LIDAR:11%, CRASH_FLOOR:9%, SUCCESS:11%, CRASH_FLIP:1% | lr=8.33e-05
+
+[45088768 | phase3] reward=30.6 len=207.8 success=15.0% dist=22.7m | CRASH_Z_DEVIATE:64%,
+CRASH_LIDAR:14%, SUCCESS:15%, CRASH_FLOOR:6%, TIMEOUT:1% | lr=8.27e-05
+
+[45219840 | phase3] reward=29.0 len=194.5 success=15.0% dist=23.1m | CRASH_Z_DEVIATE:58%,
+CRASH_LIDAR:17%, SUCCESS:15%, TIMEOUT:2%, CRASH_FLOOR:8% | lr=8.21e-05
+
+[45350912 | phase3] reward=37.6 len=218.7 success=17.0% dist=22.2m | CRASH_LIDAR:17%,
+CRASH_Z_DEVIATE:61%, SUCCESS:17%, CRASH_FLOOR:4%, TIMEOUT:1% | lr=8.14e-05
+
+[45481984 | phase3] reward=41.7 len=224.1 success=16.0% dist=19.1m | CRASH_LIDAR:12%,
+CRASH_Z_DEVIATE:66%, SUCCESS:16%, CRASH_FLOOR:5%, TIMEOUT:1% | lr=8.08e-05
+
+[45613056 | phase3] reward=27.1 len=246.4 success=9.0% dist=21.9m | CRASH_Z_DEVIATE:73%,
+SUCCESS:9%, CRASH_LIDAR:12%, CRASH_FLOOR:5%, TIMEOUT:1% | lr=8.02e-05
+
+[45744128 | phase3] reward=54.9 len=278.4 success=18.0% dist=19.1m | CRASH_Z_DEVIATE:52%,
+SUCCESS:18%, CRASH_LIDAR:15%, TIMEOUT:6%, CRASH_FLOOR:7%, CRASH_FLIP:2% | lr=7.95e-05
+
+[45875200 | phase3] reward=31.3 len=227.7 success=11.0% dist=21.9m | TIMEOUT:3%,
+CRASH_LIDAR:19%, CRASH_Z_DEVIATE:59%, CRASH_FLOOR:8%, SUCCESS:11% | lr=7.89e-05
+
+[46006272 | phase3] reward=59.5 len=242.7 success=21.0% dist=17.6m | SUCCESS:21%,
+CRASH_LIDAR:13%, CRASH_Z_DEVIATE:58%, TIMEOUT:1%, CRASH_FLOOR:7% | lr=7.83e-05
+
+[46137344 | phase3] reward=33.9 len=248.9 success=12.0% dist=21.3m | CRASH_FLOOR:7%,
+SUCCESS:12%, CRASH_Z_DEVIATE:61%, CRASH_LIDAR:19%, TIMEOUT:1% | lr=7.76e-05
+
+[46268416 | phase3] reward=35.0 len=239.0 success=11.0% dist=20.2m | CRASH_Z_DEVIATE:52%,
+TIMEOUT:4%, CRASH_LIDAR:24%, CRASH_FLOOR:9%, SUCCESS:11% | lr=7.70e-05
+
+[46399488 | phase3] reward=43.0 len=258.4 success=15.0% dist=20.3m | SUCCESS:15%,
+CRASH_LIDAR:18%, CRASH_Z_DEVIATE:57%, TIMEOUT:3%, CRASH_FLOOR:7% | lr=7.64e-05
+
+[46530560 | phase3] reward=54.3 len=263.4 success=17.0% dist=16.9m | CRASH_Z_DEVIATE:60%,
+SUCCESS:17%, CRASH_LIDAR:18%, CRASH_FLOOR:2%, TIMEOUT:2%, CRASH_FLIP:1% | lr=7.57e-05
+
+[46661632 | phase3] reward=60.1 len=273.0 success=20.0% dist=17.5m | CRASH_FLOOR:5%,
+CRASH_Z_DEVIATE:54%, TIMEOUT:3%, SUCCESS:20%, CRASH_LIDAR:16%, CRASH_FLIP:2% | lr=7.51e-05
+
+[46792704 | phase3] reward=45.1 len=237.6 success=18.0% dist=20.3m | CRASH_Z_DEVIATE:58%,
+SUCCESS:18%, CRASH_FLOOR:6%, CRASH_LIDAR:16%, TIMEOUT:1%, CRASH_FLIP:1% | lr=7.45e-05
+
+[46923776 | phase3] reward=27.6 len=224.1 success=11.0% dist=22.4m | CRASH_LIDAR:21%,
+CRASH_Z_DEVIATE:61%, SUCCESS:11%, TIMEOUT:3%, CRASH_FLOOR:4% | lr=7.38e-05
+
+[47054848 | phase3] reward=37.5 len=275.4 success=14.0% dist=22.7m | CRASH_FLOOR:10%,
+CRASH_Z_DEVIATE:51%, CRASH_LIDAR:20%, SUCCESS:14%, TIMEOUT:4%, CRASH_FLIP:1% | lr=7.32e-05
+
+[47185920 | phase3] reward=44.5 len=261.9 success=16.0% dist=20.6m | CRASH_Z_DEVIATE:60%,
+SUCCESS:16%, CRASH_LIDAR:17%, CRASH_FLOOR:5%, TIMEOUT:2% | lr=7.26e-05
+
+[47316992 | phase3] reward=61.4 len=297.3 success=20.0% dist=18.1m | CRASH_Z_DEVIATE:54%,
+TIMEOUT:4%, CRASH_LIDAR:14%, SUCCESS:20%, CRASH_FLOOR:7%, CRASH_FLIP:1% | lr=7.19e-05
+
+[47448064 | phase3] reward=52.7 len=285.1 success=18.0% dist=19.8m | CRASH_LIDAR:21%,
+CRASH_Z_DEVIATE:55%, SUCCESS:18%, CRASH_FLOOR:4%, CRASH_FLIP:1%, TIMEOUT:1% | lr=7.13e-05
+
+[47579136 | phase3] reward=60.2 len=312.2 success=19.0% dist=18.0m | CRASH_Z_DEVIATE:57%,
+SUCCESS:19%, TIMEOUT:6%, CRASH_LIDAR:11%, CRASH_FLOOR:7% | lr=7.07e-05
+
+[47710208 | phase3] reward=48.7 len=278.5 success=16.0% dist=19.5m | CRASH_FLOOR:7%, TIMEOUT:4%,
+CRASH_Z_DEVIATE:51%, SUCCESS:16%, CRASH_LIDAR:22% | lr=7.00e-05
+
+[47841280 | phase3] reward=60.0 len=323.2 success=18.0% dist=18.4m | CRASH_LIDAR:19%,
+SUCCESS:18%, CRASH_Z_DEVIATE:56%, TIMEOUT:4%, CRASH_FLOOR:3% | lr=6.94e-05
+
+[47972352 | phase3] reward=49.5 len=307.0 success=15.0% dist=18.7m | CRASH_Z_DEVIATE:58%,
+CRASH_LIDAR:17%, SUCCESS:15%, CRASH_FLOOR:7%, TIMEOUT:3% | lr=6.88e-05
+
+[48103424 | phase3] reward=80.9 len=370.6 success=25.0% dist=15.7m | SUCCESS:25%,
+CRASH_FLOOR:5%, CRASH_Z_DEVIATE:45%, TIMEOUT:6%, CRASH_LIDAR:19% | lr=6.81e-05
+
+[48234496 | phase3] reward=81.3 len=296.9 success=29.0% dist=14.9m | CRASH_Z_DEVIATE:42%,
+CRASH_LIDAR:26%, SUCCESS:29%, TIMEOUT:2%, CRASH_FLOOR:1% | lr=6.75e-05
+
+[48365568 | phase3] reward=64.3 len=276.7 success=24.0% dist=16.6m | CRASH_Z_DEVIATE:47%,
+CRASH_LIDAR:25%, SUCCESS:24%, CRASH_FLOOR:4% | lr=6.69e-05
+
+[48496640 | phase3] reward=76.5 len=317.7 success=23.0% dist=15.7m | CRASH_LIDAR:27%,
+CRASH_Z_DEVIATE:44%, SUCCESS:23%, CRASH_FLOOR:1%, TIMEOUT:5% | lr=6.62e-05
+
+[48627712 | phase3] reward=71.5 len=278.8 success=26.0% dist=16.3m | CRASH_Z_DEVIATE:53%,
+SUCCESS:26%, CRASH_FLOOR:5%, CRASH_LIDAR:16% | lr=6.56e-05
+
+[48758784 | phase3] reward=57.3 len=303.5 success=17.0% dist=17.8m | CRASH_Z_DEVIATE:56%,
+SUCCESS:17%, CRASH_LIDAR:18%, TIMEOUT:4%, CRASH_FLOOR:4%, CRASH_FLIP:1% | lr=6.50e-05
+
+[48889856 | phase3] reward=75.8 len=278.5 success=26.0% dist=15.2m | SUCCESS:26%,
+CRASH_FLOOR:1%, CRASH_Z_DEVIATE:53%, CRASH_LIDAR:17%, TIMEOUT:3% | lr=6.43e-05
+
+[49020928 | phase3] reward=59.6 len=265.5 success=22.0% dist=17.1m | CRASH_Z_DEVIATE:45%,
+CRASH_LIDAR:26%, TIMEOUT:2%, SUCCESS:22%, CRASH_FLOOR:5% | lr=6.37e-05
+
+[49152000 | phase3] reward=63.5 len=300.1 success=22.0% dist=17.6m | CRASH_LIDAR:22%,
+TIMEOUT:2%, CRASH_Z_DEVIATE:46%, SUCCESS:22%, CRASH_FLOOR:7%, CRASH_FLIP:1% | lr=6.31e-05
+
+[49283072 | phase3] reward=58.2 len=273.4 success=20.0% dist=18.2m | CRASH_Z_DEVIATE:47%,
+SUCCESS:20%, CRASH_LIDAR:26%, CRASH_FLOOR:4%, TIMEOUT:3% | lr=6.24e-05
+
+[49414144 | phase3] reward=90.7 len=345.8 success=29.0% dist=15.1m | CRASH_Z_DEVIATE:43%,
+SUCCESS:29%, CRASH_LIDAR:17%, CRASH_FLOOR:5%, TIMEOUT:6% | lr=6.18e-05
+
+[49545216 | phase3] reward=61.5 len=256.4 success=22.0% dist=17.5m | SUCCESS:22%,
+CRASH_Z_DEVIATE:54%, CRASH_FLOOR:4%, CRASH_LIDAR:19%, TIMEOUT:1% | lr=6.12e-05
+
+[49676288 | phase3] reward=77.4 len=318.8 success=25.0% dist=16.2m | CRASH_Z_DEVIATE:40%,
+SUCCESS:25%, CRASH_LIDAR:24%, TIMEOUT:5%, CRASH_FLOOR:6% | lr=6.05e-05
+
+[49807360 | phase3] reward=90.6 len=372.4 success=25.0% dist=14.6m | CRASH_LIDAR:29%,
+CRASH_Z_DEVIATE:28%, SUCCESS:25%, TIMEOUT:10%, CRASH_FLOOR:7%, CRASH_FLIP:1% | lr=5.99e-05
+
+[49938432 | phase3] reward=76.6 len=319.6 success=25.0% dist=16.1m | SUCCESS:25%,
+CRASH_Z_DEVIATE:44%, CRASH_LIDAR:19%, TIMEOUT:6%, CRASH_FLOOR:6% | lr=5.93e-05
+
+[50069504 | phase3] reward=66.1 len=264.9 success=22.0% dist=16.2m | SUCCESS:22%,
+CRASH_Z_DEVIATE:49%, CRASH_LIDAR:22%, CRASH_FLOOR:5%, TIMEOUT:2% | lr=5.86e-05
+
+[50200576 | phase3] reward=80.4 len=329.7 success=23.0% dist=15.5m | CRASH_LIDAR:25%,
+CRASH_Z_DEVIATE:42%, SUCCESS:23%, TIMEOUT:9%, CRASH_FLOOR:1% | lr=5.80e-05
+
+[50331648 | phase3] reward=79.6 len=302.9 success=26.0% dist=15.5m | CRASH_Z_DEVIATE:40%,
+SUCCESS:26%, CRASH_LIDAR:24%, CRASH_FLOOR:6%, CRASH_FLIP:1%, TIMEOUT:3% | lr=5.74e-05
+
+[50462720 | phase3] reward=91.5 len=313.0 success=29.0% dist=13.0m | CRASH_Z_DEVIATE:47%,
+SUCCESS:29%, CRASH_LIDAR:18%, TIMEOUT:4%, CRASH_FLOOR:2% | lr=5.67e-05
+
+[50593792 | phase3] reward=72.4 len=290.9 success=24.0% dist=16.5m | CRASH_Z_DEVIATE:50%,
+SUCCESS:24%, CRASH_LIDAR:19%, CRASH_FLIP:2%, TIMEOUT:3%, CRASH_FLOOR:2% | lr=5.61e-05
+
+[50724864 | phase3] reward=84.6 len=280.2 success=31.0% dist=15.6m | CRASH_Z_DEVIATE:39%,
+SUCCESS:31%, CRASH_LIDAR:27%, CRASH_FLIP:1%, TIMEOUT:1%, CRASH_FLOOR:1% | lr=5.55e-05
+
+[50855936 | phase3] reward=72.0 len=301.4 success=24.0% dist=16.9m | CRASH_Z_DEVIATE:40%,
+CRASH_LIDAR:27%, CRASH_FLIP:1%, CRASH_FLOOR:4%, SUCCESS:24%, TIMEOUT:4% | lr=5.48e-05
+
+[50987008 | phase3] reward=91.5 len=294.6 success=32.0% dist=14.1m | CRASH_Z_DEVIATE:38%,
+CRASH_LIDAR:22%, SUCCESS:32%, TIMEOUT:4%, CRASH_FLOOR:4% | lr=5.42e-05
+
+[51118080 | phase3] reward=81.8 len=265.1 success=29.0% dist=15.1m | CRASH_Z_DEVIATE:43%,
+CRASH_LIDAR:23%, SUCCESS:29%, CRASH_FLOOR:4%, TIMEOUT:1% | lr=5.36e-05
+
+[51249152 | phase3] reward=75.9 len=284.1 success=26.0% dist=15.8m | CRASH_LIDAR:24%,
+TIMEOUT:3%, SUCCESS:26%, CRASH_Z_DEVIATE:44%, CRASH_FLOOR:2%, CRASH_FLIP:1% | lr=5.29e-05
+
+[51380224 | phase3] reward=68.8 len=292.1 success=21.0% dist=16.3m | SUCCESS:21%,
+CRASH_Z_DEVIATE:43%, CRASH_LIDAR:28%, TIMEOUT:4%, CRASH_FLOOR:2%, CRASH_FLIP:2% | lr=5.23e-05
+
+[51511296 | phase3] reward=90.9 len=311.6 success=33.0% dist=15.0m | CRASH_LIDAR:23%,
+CRASH_Z_DEVIATE:38%, SUCCESS:33%, CRASH_FLOOR:4%, TIMEOUT:2% | lr=5.17e-05
+
+[51642368 | phase3] reward=113.4 len=383.3 success=38.0% dist=12.5m | CRASH_LIDAR:28%,
+SUCCESS:38%, CRASH_Z_DEVIATE:25%, CRASH_FLOOR:6%, TIMEOUT:3% | lr=5.10e-05
+
+[51773440 | phase3] reward=81.7 len=276.2 success=27.0% dist=15.5m | CRASH_LIDAR:24%,
+CRASH_Z_DEVIATE:41%, SUCCESS:27%, TIMEOUT:5%, CRASH_FLOOR:3% | lr=5.04e-05
+
+[51904512 | phase3] reward=63.7 len=311.3 success=20.0% dist=18.0m | CRASH_LIDAR:28%,
+SUCCESS:20%, CRASH_Z_DEVIATE:44%, TIMEOUT:6%, CRASH_FLOOR:2% | lr=4.98e-05
+
+[52035584 | phase3] reward=90.4 len=322.6 success=28.0% dist=13.8m | CRASH_LIDAR:27%,
+CRASH_Z_DEVIATE:37%, SUCCESS:28%, CRASH_FLOOR:3%, TIMEOUT:5% | lr=4.91e-05
+
+[52166656 | phase3] reward=93.0 len=331.4 success=29.0% dist=14.0m | SUCCESS:29%,
+CRASH_Z_DEVIATE:40%, CRASH_LIDAR:24%, TIMEOUT:4%, CRASH_FLOOR:3% | lr=4.85e-05
+
+[52297728 | phase3] reward=95.1 len=300.3 success=32.0% dist=13.9m | CRASH_LIDAR:24%,
+SUCCESS:32%, CRASH_FLOOR:1%, CRASH_Z_DEVIATE:39%, TIMEOUT:4% | lr=4.79e-05
+
+[52428800 | phase3] reward=90.1 len=337.8 success=27.0% dist=13.6m | SUCCESS:27%,
+CRASH_Z_DEVIATE:35%, CRASH_FLOOR:7%, CRASH_LIDAR:23%, TIMEOUT:7%, CRASH_FLIP:1% | lr=4.72e-05
+
+[52559872 | phase3] reward=93.9 len=310.3 success=33.0% dist=14.9m | CRASH_Z_DEVIATE:36%,
+CRASH_LIDAR:26%, SUCCESS:33%, TIMEOUT:4%, CRASH_FLOOR:1% | lr=4.66e-05
+
+[52690944 | phase3] reward=89.9 len=323.2 success=31.0% dist=15.1m | SUCCESS:31%,
+CRASH_LIDAR:32%, CRASH_Z_DEVIATE:34%, TIMEOUT:3% | lr=4.60e-05
+
+[52822016 | phase3] reward=100.1 len=306.2 success=34.0% dist=13.5m | CRASH_Z_DEVIATE:32%,
+SUCCESS:34%, CRASH_LIDAR:26%, CRASH_FLOOR:3%, TIMEOUT:4%, CRASH_FLIP:1% | lr=4.53e-05
+
+[52953088 | phase3] reward=85.1 len=313.6 success=31.0% dist=15.7m | CRASH_Z_DEVIATE:38%,
+TIMEOUT:2%, SUCCESS:31%, CRASH_LIDAR:27%, CRASH_FLOOR:2% | lr=4.47e-05
+
+[53084160 | phase3] reward=103.9 len=329.1 success=36.0% dist=12.7m | CRASH_Z_DEVIATE:32%,
+SUCCESS:36%, CRASH_LIDAR:27%, CRASH_FLOOR:2%, TIMEOUT:3% | lr=4.41e-05
+
+[53215232 | phase3] reward=87.7 len=322.9 success=28.0% dist=14.6m | SUCCESS:28%,
+CRASH_Z_DEVIATE:38%, CRASH_LIDAR:25%, TIMEOUT:5%, CRASH_FLOOR:2%, CRASH_FLIP:2% | lr=4.34e-05
+
+[53346304 | phase3] reward=91.6 len=331.6 success=29.0% dist=15.0m | CRASH_Z_DEVIATE:40%,
+SUCCESS:29%, CRASH_LIDAR:20%, CRASH_FLOOR:5%, TIMEOUT:6% | lr=4.28e-05
+
+[53477376 | phase3] reward=93.2 len=343.2 success=28.0% dist=14.3m | CRASH_Z_DEVIATE:39%,
+CRASH_LIDAR:23%, SUCCESS:28%, CRASH_FLOOR:3%, TIMEOUT:7% | lr=4.22e-05
+
+[53608448 | phase3] reward=99.9 len=345.1 success=34.0% dist=14.3m | SUCCESS:34%,
+CRASH_LIDAR:26%, CRASH_Z_DEVIATE:33%, CRASH_FLOOR:3%, TIMEOUT:4% | lr=4.15e-05
+
+[53739520 | phase3] reward=84.0 len=313.5 success=24.0% dist=15.0m | CRASH_Z_DEVIATE:38%,
+SUCCESS:24%, CRASH_LIDAR:28%, TIMEOUT:8%, CRASH_FLOOR:2% | lr=4.09e-05
+
+[53870592 | phase3] reward=114.0 len=337.0 success=39.0% dist=12.7m | CRASH_Z_DEVIATE:32%,
+SUCCESS:39%, TIMEOUT:4%, CRASH_LIDAR:23%, CRASH_FLIP:2% | lr=4.03e-05
+
+[54001664 | phase3] reward=112.2 len=384.1 success=35.0% dist=11.9m | CRASH_LIDAR:25%,
+TIMEOUT:6%, SUCCESS:35%, CRASH_Z_DEVIATE:33%, CRASH_FLOOR:1% | lr=3.96e-05
+
+[54132736 | phase3] reward=102.1 len=350.3 success=32.0% dist=13.2m | SUCCESS:32%,
+CRASH_LIDAR:25%, CRASH_Z_DEVIATE:33%, CRASH_FLOOR:5%, TIMEOUT:5% | lr=3.90e-05
+
+[54263808 | phase3] reward=85.9 len=298.7 success=29.0% dist=15.2m | CRASH_LIDAR:30%,
+SUCCESS:29%, CRASH_Z_DEVIATE:34%, CRASH_FLOOR:2%, TIMEOUT:5% | lr=3.84e-05
+
+[54394880 | phase3] reward=93.2 len=285.8 success=33.0% dist=13.9m | CRASH_Z_DEVIATE:31%,
+SUCCESS:33%, CRASH_LIDAR:32%, CRASH_FLOOR:3%, TIMEOUT:1% | lr=3.77e-05
+
+[54525952 | phase3] reward=106.7 len=362.1 success=34.0% dist=12.7m | CRASH_LIDAR:23%,
+CRASH_Z_DEVIATE:32%, SUCCESS:34%, TIMEOUT:5%, CRASH_FLIP:2%, CRASH_FLOOR:4% | lr=3.71e-05
+
+[54657024 | phase3] reward=115.4 len=325.8 success=40.0% dist=12.9m | CRASH_Z_DEVIATE:34%,
+SUCCESS:40%, TIMEOUT:4%, CRASH_LIDAR:20%, CRASH_FLOOR:2% | lr=3.65e-05
+
+[54788096 | phase3] reward=103.0 len=309.1 success=35.0% dist=13.9m | CRASH_Z_DEVIATE:28%,
+CRASH_LIDAR:28%, SUCCESS:35%, TIMEOUT:7%, CRASH_FLOOR:2% | lr=3.58e-05
+
+[54919168 | phase3] reward=97.5 len=309.9 success=33.0% dist=13.5m | CRASH_LIDAR:29%,
+CRASH_Z_DEVIATE:31%, SUCCESS:33%, CRASH_FLOOR:5%, TIMEOUT:2% | lr=3.52e-05
+
+[55050240 | phase3] reward=73.9 len=299.3 success=23.0% dist=15.8m | CRASH_Z_DEVIATE:35%,
+CRASH_LIDAR:36%, SUCCESS:23%, TIMEOUT:3%, CRASH_FLOOR:3% | lr=3.46e-05
+
+[55181312 | phase3] reward=92.7 len=305.7 success=29.0% dist=12.9m | CRASH_Z_DEVIATE:36%,
+SUCCESS:29%, CRASH_LIDAR:31%, CRASH_FLIP:1%, CRASH_FLOOR:2%, TIMEOUT:1% | lr=3.39e-05
+
+[55312384 | phase3] reward=118.8 len=328.6 success=41.0% dist=12.4m | CRASH_LIDAR:25%,
+SUCCESS:41%, CRASH_Z_DEVIATE:27%, TIMEOUT:7% | lr=3.33e-05
+
+[55443456 | phase3] reward=104.1 len=297.1 success=35.0% dist=12.4m | CRASH_LIDAR:32%,
+SUCCESS:35%, CRASH_Z_DEVIATE:30%, TIMEOUT:2%, CRASH_FLOOR:1% | lr=3.27e-05
+
+[55574528 | phase3] reward=111.8 len=299.8 success=42.0% dist=13.5m | SUCCESS:42%,
+CRASH_LIDAR:29%, CRASH_Z_DEVIATE:26%, CRASH_FLOOR:2%, TIMEOUT:1% | lr=3.20e-05
+
+[55705600 | phase3] reward=88.2 len=279.7 success=30.0% dist=15.1m | SUCCESS:30%,
+CRASH_Z_DEVIATE:37%, CRASH_LIDAR:29%, TIMEOUT:3%, CRASH_FLOOR:1% | lr=3.14e-05
+
+[55836672 | phase3] reward=104.1 len=311.0 success=34.0% dist=12.5m | CRASH_FLOOR:2%,
+CRASH_Z_DEVIATE:31%, CRASH_LIDAR:27%, SUCCESS:34%, TIMEOUT:6% | lr=3.08e-05
+
+[55967744 | phase3] reward=99.3 len=319.0 success=31.0% dist=12.6m | SUCCESS:31%,
+CRASH_Z_DEVIATE:34%, CRASH_LIDAR:27%, CRASH_FLOOR:3%, TIMEOUT:5% | lr=3.01e-05
+
+[56098816 | phase3] reward=94.5 len=273.5 success=33.0% dist=12.7m | CRASH_Z_DEVIATE:29%,
+SUCCESS:33%, CRASH_LIDAR:38% | lr=2.95e-05
+
+[56229888 | phase3] reward=101.5 len=344.3 success=30.0% dist=12.0m | CRASH_LIDAR:36%,
+SUCCESS:30%, TIMEOUT:7%, CRASH_Z_DEVIATE:27% | lr=2.89e-05
+
+[56360960 | phase3] reward=103.8 len=315.2 success=35.0% dist=12.0m | CRASH_LIDAR:29%,
+CRASH_Z_DEVIATE:33%, SUCCESS:35%, TIMEOUT:2%, CRASH_FLOOR:1% | lr=2.82e-05
+
+[56492032 | phase3] reward=100.2 len=351.9 success=32.0% dist=12.6m | CRASH_LIDAR:37%,
+SUCCESS:32%, CRASH_Z_DEVIATE:27%, TIMEOUT:3%, CRASH_FLOOR:1% | lr=2.76e-05
+
+[56623104 | phase3] reward=108.6 len=299.3 success=38.0% dist=11.8m | CRASH_Z_DEVIATE:30%,
+CRASH_LIDAR:29%, SUCCESS:38%, TIMEOUT:1%, CRASH_FLOOR:2% | lr=2.70e-05
+
+[56754176 | phase3] reward=111.8 len=345.8 success=37.0% dist=12.1m | CRASH_LIDAR:31%,
+SUCCESS:37%, CRASH_Z_DEVIATE:25%, CRASH_FLOOR:1%, TIMEOUT:6% | lr=2.63e-05
+
+[56885248 | phase3] reward=129.8 len=301.1 success=47.0% dist=9.8m | CRASH_Z_DEVIATE:21%,
+CRASH_LIDAR:28%, SUCCESS:47%, TIMEOUT:2%, CRASH_FLOOR:2% | lr=2.57e-05
+
+[57016320 | phase3] reward=91.6 len=262.5 success=33.0% dist=13.9m | CRASH_LIDAR:36%,
+SUCCESS:33%, CRASH_FLOOR:3%, CRASH_Z_DEVIATE:25%, TIMEOUT:3% | lr=2.51e-05
+
+[57147392 | phase3] reward=121.3 len=338.4 success=39.0% dist=11.7m | SUCCESS:39%,
+CRASH_LIDAR:32%, CRASH_FLOOR:4%, TIMEOUT:8%, CRASH_Z_DEVIATE:17% | lr=2.44e-05
+
+[57278464 | phase3] reward=87.4 len=271.2 success=32.0% dist=15.0m | CRASH_Z_DEVIATE:24%,
+SUCCESS:32%, CRASH_LIDAR:39%, CRASH_FLOOR:4%, TIMEOUT:1% | lr=2.38e-05
+
+[57409536 | phase3] reward=94.2 len=262.6 success=33.0% dist=13.1m | CRASH_Z_DEVIATE:24%,
+CRASH_LIDAR:39%, SUCCESS:33%, TIMEOUT:2%, CRASH_FLOOR:2% | lr=2.32e-05
+
+[57540608 | phase3] reward=86.3 len=278.1 success=32.0% dist=15.3m | CRASH_Z_DEVIATE:27%,
+CRASH_LIDAR:37%, SUCCESS:32%, TIMEOUT:3%, CRASH_FLOOR:1% | lr=2.25e-05
+
+[57671680 | phase3] reward=99.9 len=310.7 success=35.0% dist=13.1m | CRASH_Z_DEVIATE:28%,
+CRASH_LIDAR:31%, SUCCESS:35%, CRASH_FLOOR:2%, TIMEOUT:4% | lr=2.19e-05
+
+[57802752 | phase3] reward=123.5 len=291.4 success=44.0% dist=10.6m | CRASH_LIDAR:33%,
+CRASH_Z_DEVIATE:19%, SUCCESS:44%, TIMEOUT:3%, CRASH_FLOOR:1% | lr=2.13e-05
+
+[57933824 | phase3] reward=118.2 len=305.9 success=39.0% dist=11.3m | CRASH_Z_DEVIATE:26%,
+CRASH_LIDAR:28%, SUCCESS:39%, TIMEOUT:7% | lr=2.06e-05
+
+[58064896 | phase3] reward=102.5 len=240.4 success=39.0% dist=13.1m | CRASH_LIDAR:37%,
+SUCCESS:39%, CRASH_Z_DEVIATE:20%, TIMEOUT:2%, CRASH_FLIP:1%, CRASH_FLOOR:1% | lr=2.00e-05
+
+[58195968 | phase3] reward=122.8 len=313.1 success=43.0% dist=10.9m | CRASH_LIDAR:32%,
+SUCCESS:43%, CRASH_Z_DEVIATE:20%, TIMEOUT:4%, CRASH_FLOOR:1% | lr=1.94e-05
+
+[58327040 | phase3] reward=94.5 len=279.4 success=32.0% dist=14.1m | CRASH_LIDAR:32%,
+CRASH_Z_DEVIATE:26%, SUCCESS:32%, TIMEOUT:6%, CRASH_FLOOR:3%, CRASH_FLIP:1% | lr=1.87e-05
+
+[58458112 | phase3] reward=98.3 len=271.5 success=33.0% dist=12.3m | SUCCESS:33%,
+CRASH_Z_DEVIATE:25%, CRASH_LIDAR:36%, TIMEOUT:3%, CRASH_FLOOR:2%, CRASH_FLIP:1% | lr=1.81e-05
+
+[58589184 | phase3] reward=114.9 len=305.2 success=39.0% dist=11.0m | CRASH_LIDAR:43%,
+SUCCESS:39%, CRASH_Z_DEVIATE:14%, CRASH_FLOOR:1%, TIMEOUT:3% | lr=1.75e-05
+
+[58720256 | phase3] reward=106.2 len=324.9 success=37.0% dist=13.1m | SUCCESS:37%,
+CRASH_Z_DEVIATE:25%, CRASH_LIDAR:30%, TIMEOUT:5%, CRASH_FLOOR:2%, CRASH_FLIP:1% | lr=1.68e-05
+
+[58851328 | phase3] reward=99.5 len=284.4 success=33.0% dist=12.7m | SUCCESS:33%,
+CRASH_LIDAR:38%, CRASH_FLOOR:2%, TIMEOUT:5%, CRASH_Z_DEVIATE:22% | lr=1.62e-05
+
+[58982400 | phase3] reward=119.5 len=341.8 success=40.0% dist=11.0m | CRASH_LIDAR:20%,
+CRASH_Z_DEVIATE:31%, SUCCESS:40%, TIMEOUT:4%, CRASH_FLOOR:5% | lr=1.56e-05
+
+[59113472 | phase3] reward=105.7 len=279.9 success=37.0% dist=12.0m | TIMEOUT:3%,
+CRASH_Z_DEVIATE:23%, SUCCESS:37%, CRASH_LIDAR:35%, CRASH_FLIP:2% | lr=1.49e-05
+
+[59244544 | phase3] reward=92.3 len=331.0 success=27.0% dist=13.8m | CRASH_LIDAR:36%,
+SUCCESS:27%, CRASH_Z_DEVIATE:25%, TIMEOUT:10%, CRASH_FLOOR:2% | lr=1.43e-05
+
+[59375616 | phase3] reward=103.7 len=289.8 success=36.0% dist=13.0m | CRASH_LIDAR:38%,
+SUCCESS:36%, CRASH_Z_DEVIATE:18%, CRASH_FLOOR:4%, TIMEOUT:3%, CRASH_FLIP:1% | lr=1.37e-05
+
+[59506688 | phase3] reward=102.5 len=327.1 success=36.0% dist=13.6m | SUCCESS:36%, TIMEOUT:5%,
+CRASH_LIDAR:31%, CRASH_FLOOR:1%, CRASH_Z_DEVIATE:26%, CRASH_FLIP:1% | lr=1.30e-05
+
+[59637760 | phase3] reward=138.5 len=389.2 success=46.0% dist=9.5m | SUCCESS:46%,
+CRASH_Z_DEVIATE:21%, TIMEOUT:5%, CRASH_LIDAR:27%, CRASH_FLIP:1% | lr=1.24e-05
+
+[59768832 | phase3] reward=116.0 len=307.8 success=38.0% dist=11.3m | SUCCESS:38%,
+CRASH_Z_DEVIATE:31%, CRASH_LIDAR:26%, CRASH_FLOOR:1%, TIMEOUT:4% | lr=1.18e-05
+
+[59899904 | phase3] reward=99.8 len=278.1 success=35.0% dist=12.6m | SUCCESS:35%,
+CRASH_LIDAR:38%, CRASH_Z_DEVIATE:23%, CRASH_FLOOR:1%, TIMEOUT:2%, CRASH_FLIP:1% | lr=1.11e-05
+
+[60030976 | phase3] reward=104.8 len=343.5 success=33.0% dist=12.6m | CRASH_LIDAR:35%,
+CRASH_FLIP:1%, SUCCESS:33%, CRASH_Z_DEVIATE:24%, CRASH_FLOOR:3%, TIMEOUT:4% | lr=1.05e-05
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19,922,944/19,891,968  [ 6:31:29 < 0:00:00 , 724 it/s ]
+
+训练完成: /scratch/jiaqi/gym_pybullet/checkpoints/forest_nav/forest_nav_final.zip
+(ctph) [jiaqi@phoenix4 gym_pybullet]$

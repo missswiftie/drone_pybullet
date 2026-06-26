@@ -1,0 +1,188 @@
+## 训练轨迹跟踪任务
+
+[00081920] reward=-18.8 completion=1.2% | CRASH:92%, DEVIATE:8%
+[00163840] reward=-18.7 completion=1.5% | CRASH:82%, DEVIATE:18%
+[00245760] reward=-18.6 completion=1.8% | CRASH:82%, DEVIATE:18%
+[00327680] reward=-18.3 completion=2.4% | CRASH:82%, DEVIATE:18%
+[00409600] reward=-18.3 completion=3.1% | DEVIATE:34%, CRASH:66%
+[00491520] reward=-17.9 completion=4.0% | CRASH:74%, DEVIATE:26%
+[00573440] reward=-17.7 completion=4.8% | CRASH:62%, DEVIATE:38%
+[00655360] reward=-17.2 completion=6.0% | CRASH:67%, DEVIATE:33%
+[00737280] reward=-17.2 completion=6.6% | DEVIATE:49%, CRASH:51%
+[00819200] reward=-16.7 completion=7.6% | CRASH:57%, DEVIATE:43%
+[00901120] reward=-16.7 completion=7.8% | DEVIATE:53%, CRASH:47%
+[00983040] reward=-16.0 completion=9.1% | DEVIATE:60%, CRASH:40%
+[01064960] reward=-15.8 completion=9.2% | CRASH:52%, DEVIATE:48%
+[01146880] reward=-15.7 completion=9.9% | DEVIATE:49%, CRASH:51%
+[01228800] reward=-15.4 completion=10.2% | CRASH:35%, DEVIATE:65%
+[01310720] reward=-15.3 completion=11.0% | CRASH:49%, DEVIATE:51%
+[01392640] reward=-15.2 completion=10.7% | DEVIATE:75%, CRASH:25%
+[01474560] reward=-14.5 completion=11.2% | CRASH:34%, DEVIATE:66%
+[01556480] reward=-14.3 completion=11.1% | DEVIATE:70%, CRASH:30%
+[01638400] reward=-14.0 completion=12.4% | DEVIATE:74%, CRASH:26%
+[01720320] reward=-14.0 completion=12.0% | CRASH:28%, DEVIATE:72%
+[01802240] reward=-14.0 completion=11.5% | CRASH:22%, DEVIATE:78%
+[01884160] reward=-13.7 completion=11.7% | DEVIATE:70%, CRASH:30%
+[01966080] reward=-13.1 completion=12.9% | DEVIATE:79%, CRASH:21%
+[02048000] reward=-12.5 completion=13.8% | CRASH:26%, DEVIATE:74%
+[02129920] reward=-12.6 completion=13.0% | DEVIATE:75%, CRASH:25%
+[02211840] reward=-12.5 completion=13.0% | DEVIATE:76%, CRASH:24%
+[02293760] reward=-11.9 completion=13.6% | CRASH:22%, DEVIATE:78%
+[02375680] reward=-11.5 completion=15.2% | DEVIATE:76%, CRASH:24%
+[02457600] reward=-11.7 completion=14.4% | DEVIATE:80%, CRASH:20%
+[02539520] reward=-10.6 completion=15.5% | DEVIATE:81%, CRASH:19%
+[02621440] reward=-10.9 completion=15.3% | DEVIATE:79%, CRASH:21%
+[02703360] reward=-9.8 completion=17.2% | DEVIATE:84%, CRASH:16%
+[02785280] reward=-10.8 completion=16.1% | DEVIATE:77%, CRASH:23%
+[02867200] reward=-10.5 completion=15.8% | DEVIATE:77%, CRASH:23%
+[02949120] reward=-10.2 completion=16.3% | DEVIATE:73%, CRASH:27%
+[03031040] reward=-10.4 completion=16.4% | DEVIATE:81%, CRASH:19%
+[03112960] reward=-10.1 completion=17.9% | DEVIATE:76%, CRASH:24%
+[03194880] reward=-9.4 completion=18.9% | DEVIATE:86%, CRASH:14%
+[03276800] reward=-9.6 completion=17.6% | DEVIATE:78%, CRASH:22%
+[03358720] reward=-9.1 completion=18.3% | DEVIATE:78%, CRASH:22%
+[03440640] reward=-8.3 completion=21.3% | CRASH:28%, DEVIATE:72%
+[03522560] reward=-8.6 completion=21.2% | DEVIATE:75%, CRASH:25%
+[03604480] reward=-9.0 completion=20.0% | DEVIATE:75%, CRASH:25%
+[03686400] reward=-8.3 completion=20.7% | DEVIATE:79%, CRASH:21%
+[03768320] reward=-8.0 completion=22.6% | CRASH:26%, DEVIATE:74%
+[03850240] reward=-7.3 completion=23.1% | DEVIATE:69%, CRASH:31%
+[03932160] reward=-7.0 completion=22.8% | DEVIATE:69%, CRASH:31%
+[04014080] reward=-7.0 completion=23.9% | DEVIATE:69%, CRASH:31%
+[04096000] reward=-6.6 completion=24.3% | DEVIATE:72%, CRASH:28%
+[04177920] reward=-7.3 completion=21.7% | CRASH:35%, DEVIATE:65%
+[04259840] reward=-6.3 completion=26.0% | DEVIATE:73%, CRASH:27%
+[04341760] reward=-6.8 completion=23.4% | CRASH:45%, DEVIATE:55%
+[04423680] reward=-5.7 completion=27.4% | DEVIATE:70%, CRASH:30%
+[04505600] reward=-3.7 completion=30.3% | DEVIATE:60%, CRASH:40%
+[04587520] reward=-3.7 completion=30.5% | DEVIATE:68%, CRASH:32%
+[04669440] reward=-2.5 completion=30.8% | CRASH:33%, DEVIATE:66%, SUCCESS:1%
+[04751360] reward=-1.6 completion=32.7% | DEVIATE:70%, CRASH:30%
+[04833280] reward=1.3 completion=35.3% | DEVIATE:70%, CRASH:29%, SUCCESS:1%
+[04915200] reward=5.7 completion=40.4% | DEVIATE:68%, CRASH:28%, SUCCESS:4%
+[04997120] reward=2.8 completion=38.6% | DEVIATE:71%, CRASH:28%, SUCCESS:1%
+[05079040] reward=6.2 completion=39.5% | CRASH:30%, DEVIATE:67%, SUCCESS:3%
+[05160960] reward=12.2 completion=42.5% | DEVIATE:68%, SUCCESS:6%, CRASH:26%
+[05242880] reward=10.0 completion=42.7% | DEVIATE:67%, CRASH:28%, SUCCESS:5%
+[05324800] reward=16.2 completion=49.5% | DEVIATE:66%, SUCCESS:7%, CRASH:27%
+[05406720] reward=15.4 completion=46.6% | DEVIATE:63%, CRASH:30%, SUCCESS:7%
+[05488640] reward=27.8 completion=54.4% | DEVIATE:52%, CRASH:35%, SUCCESS:13%
+[05570560] reward=30.3 completion=57.8% | DEVIATE:61%, SUCCESS:15%, CRASH:24%
+[05652480] reward=25.9 completion=51.8% | DEVIATE:61%, CRASH:26%, SUCCESS:13%
+[05734400] reward=41.7 completion=63.2% | CRASH:28%, DEVIATE:52%, SUCCESS:20%
+[05816320] reward=31.5 completion=58.8% | DEVIATE:60%, SUCCESS:13%, CRASH:27%
+[05898240] reward=52.2 completion=65.6% | SUCCESS:25%, CRASH:35%, DEVIATE:40%
+[05980160] reward=55.5 completion=67.0% | DEVIATE:49%, CRASH:23%, SUCCESS:28%
+[06062080] reward=56.4 completion=68.4% | SUCCESS:29%, CRASH:22%, DEVIATE:49%
+[06144000] reward=69.6 completion=70.6% | CRASH:24%, SUCCESS:36%, DEVIATE:40%
+[06225920] reward=69.3 completion=70.6% | DEVIATE:44%, SUCCESS:37%, CRASH:19%
+[06307840] reward=83.6 completion=76.6% | CRASH:15%, SUCCESS:46%, DEVIATE:39%
+[06389760] reward=86.2 completion=78.4% | SUCCESS:48%, CRASH:18%, DEVIATE:34%
+[06471680] reward=89.1 completion=79.4% | SUCCESS:48%, DEVIATE:33%, CRASH:19%
+[06553600] reward=83.6 completion=78.8% | DEVIATE:34%, SUCCESS:45%, CRASH:21%
+[06635520] reward=99.7 completion=82.4% | CRASH:22%, DEVIATE:24%, SUCCESS:54%
+[06717440] reward=100.1 completion=81.6% | SUCCESS:57%, CRASH:18%, DEVIATE:25%
+[06799360] reward=112.6 completion=86.6% | DEVIATE:26%, SUCCESS:64%, CRASH:10%
+[06881280] reward=95.2 completion=78.8% | SUCCESS:54%, DEVIATE:34%, CRASH:12%
+[06963200] reward=106.2 completion=82.9% | SUCCESS:61%, DEVIATE:33%, CRASH:6%
+[07045120] reward=117.4 completion=87.4% | SUCCESS:68%, DEVIATE:22%, CRASH:10%
+[07127040] reward=117.2 completion=87.4% | SUCCESS:67%, DEVIATE:20%, CRASH:13%
+[07208960] reward=130.9 completion=92.0% | SUCCESS:77%, DEVIATE:19%, CRASH:4%
+[07290880] reward=123.6 completion=90.0% | SUCCESS:73%, DEVIATE:18%, CRASH:9%
+[07372800] reward=120.9 completion=90.2% | SUCCESS:72%, DEVIATE:21%, CRASH:7%
+[07454720] reward=123.7 completion=89.9% | CRASH:8%, SUCCESS:74%, DEVIATE:18%
+[07536640] reward=134.7 completion=93.1% | SUCCESS:81%, CRASH:7%, DEVIATE:12%
+[07618560] reward=131.3 completion=92.2% | DEVIATE:16%, SUCCESS:79%, CRASH:5%
+[07700480] reward=126.8 completion=91.3% | CRASH:7%, SUCCESS:75%, DEVIATE:18%
+[07782400] reward=126.9 completion=91.7% | SUCCESS:76%, DEVIATE:18%, CRASH:6%
+[07864320] reward=136.4 completion=93.5% | SUCCESS:82%, DEVIATE:10%, CRASH:8%
+[07946240] reward=132.8 completion=92.6% | SUCCESS:81%, DEVIATE:17%, CRASH:2%
+[08028160] reward=140.3 completion=94.5% | SUCCESS:86%, CRASH:2%, DEVIATE:12%
+[08110080] reward=135.6 completion=93.6% | SUCCESS:82%, DEVIATE:14%, CRASH:4%
+[08192000] reward=148.0 completion=97.4% | DEVIATE:7%, SUCCESS:91%, CRASH:2%
+[08273920] reward=135.2 completion=91.8% | SUCCESS:83%, CRASH:2%, DEVIATE:13%, TIMEOUT:2%
+[08355840] reward=141.2 completion=95.1% | SUCCESS:87%, DEVIATE:13%
+[08437760] reward=137.7 completion=94.0% | SUCCESS:85%, DEVIATE:11%, CRASH:4%
+[08519680] reward=139.3 completion=94.2% | DEVIATE:8%, SUCCESS:86%, CRASH:4%, TIMEOUT:2%
+[08601600] reward=139.9 completion=95.5% | SUCCESS:88%, CRASH:6%, DEVIATE:6%
+[08683520] reward=145.5 completion=97.8% | SUCCESS:92%, DEVIATE:8%
+[08765440] reward=138.0 completion=94.3% | SUCCESS:86%, DEVIATE:9%, CRASH:5%
+[08847360] reward=147.7 completion=98.0% | SUCCESS:93%, DEVIATE:7%
+[08929280] reward=146.7 completion=96.8% | SUCCESS:93%, DEVIATE:7%
+[09011200] reward=138.9 completion=95.3% | DEVIATE:11%, SUCCESS:87%, CRASH:2%
+[09093120] reward=149.0 completion=97.2% | SUCCESS:94%, TIMEOUT:1%, DEVIATE:4%, CRASH:1%
+[09175040] reward=142.0 completion=96.2% | SUCCESS:90%, DEVIATE:9%, CRASH:1%
+[09256960] reward=135.8 completion=94.4% | SUCCESS:85%, CRASH:3%, DEVIATE:11%, TIMEOUT:1%
+[09338880] reward=144.8 completion=97.5% | SUCCESS:92%, DEVIATE:8%
+[09420800] reward=144.1 completion=96.5% | SUCCESS:91%, DEVIATE:8%, TIMEOUT:1%
+[09502720] reward=131.0 completion=94.3% | DEVIATE:14%, SUCCESS:82%, CRASH:3%, TIMEOUT:1%
+[09584640] reward=141.3 completion=96.2% | SUCCESS:89%, DEVIATE:10%, CRASH:1%
+[09666560] reward=138.3 completion=96.2% | SUCCESS:87%, DEVIATE:11%, CRASH:2%
+[09748480] reward=140.7 completion=96.6% | SUCCESS:89%, DEVIATE:6%, CRASH:5%
+[09830400] reward=143.8 completion=97.3% | SUCCESS:91%, CRASH:4%, DEVIATE:5%
+[09912320] reward=147.4 completion=97.4% | DEVIATE:5%, SUCCESS:93%, CRASH:1%, TIMEOUT:1%
+[09994240] reward=145.5 completion=97.2% | SUCCESS:93%, DEVIATE:4%, CRASH:3%
+[10076160] reward=141.9 completion=96.5% | SUCCESS:91%, DEVIATE:8%, CRASH:1%
+[10158080] reward=139.9 completion=96.3% | SUCCESS:90%, DEVIATE:10%
+[10240000] reward=142.4 completion=97.4% | SUCCESS:91%, DEVIATE:7%, CRASH:2%
+[10321920] reward=134.9 completion=95.6% | SUCCESS:85%, DEVIATE:13%, TIMEOUT:2%
+[10403840] reward=135.7 completion=94.3% | SUCCESS:88%, CRASH:2%, TIMEOUT:1%, DEVIATE:9%
+[10485760] reward=139.6 completion=95.2% | SUCCESS:90%, DEVIATE:10%
+[10567680] reward=144.9 completion=97.5% | SUCCESS:93%, DEVIATE:5%, CRASH:1%, TIMEOUT:1%
+[10649600] reward=146.6 completion=96.7% | SUCCESS:95%, DEVIATE:4%, CRASH:1%
+[10731520] reward=143.9 completion=97.3% | SUCCESS:93%, CRASH:2%, DEVIATE:5%
+[10813440] reward=140.7 completion=96.3% | DEVIATE:7%, SUCCESS:91%, CRASH:2%
+[10895360] reward=139.7 completion=95.9% | SUCCESS:91%, DEVIATE:7%, CRASH:2%
+[10977280] reward=139.2 completion=95.8% | DEVIATE:7%, SUCCESS:90%, CRASH:3%
+[11059200] reward=143.0 completion=97.7% | SUCCESS:92%, CRASH:3%, DEVIATE:5%
+[11141120] reward=144.0 completion=97.7% | SUCCESS:95%, DEVIATE:5%
+[11223040] reward=142.8 completion=96.6% | SUCCESS:93%, DEVIATE:5%, TIMEOUT:1%, CRASH:1%
+[11304960] reward=142.3 completion=97.4% | SUCCESS:93%, DEVIATE:5%, TIMEOUT:1%, CRASH:1%
+[11386880] reward=144.5 completion=97.9% | SUCCESS:94%, DEVIATE:6%
+[11468800] reward=130.4 completion=93.8% | DEVIATE:14%, SUCCESS:84%, CRASH:2%
+[11550720] reward=136.7 completion=95.8% | SUCCESS:89%, DEVIATE:9%, CRASH:2%
+[11632640] reward=130.8 completion=93.9% | SUCCESS:84%, DEVIATE:14%, TIMEOUT:1%, CRASH:1%
+[11714560] reward=140.0 completion=97.4% | SUCCESS:91%, DEVIATE:8%, CRASH:1%
+[11796480] reward=138.5 completion=97.2% | SUCCESS:90%, DEVIATE:10%
+[11878400] reward=118.6 completion=90.6% | SUCCESS:77%, DEVIATE:21%, CRASH:2%
+[11960320] reward=134.0 completion=95.3% | SUCCESS:88%, DEVIATE:11%, CRASH:1%
+[12042240] reward=142.9 completion=97.9% | SUCCESS:93%, CRASH:2%, DEVIATE:5%
+[12124160] reward=140.7 completion=97.8% | DEVIATE:6%, SUCCESS:92%, CRASH:2%
+[12206080] reward=137.1 completion=96.1% | SUCCESS:89%, DEVIATE:10%, CRASH:1%
+[12288000] reward=134.2 completion=94.8% | SUCCESS:88%, DEVIATE:10%, TIMEOUT:1%, CRASH:1%
+[12369920] reward=138.5 completion=96.0% | SUCCESS:92%, DEVIATE:8%
+[12451840] reward=141.0 completion=97.4% | SUCCESS:93%, DEVIATE:6%, CRASH:1%
+[12533760] reward=138.5 completion=96.3% | SUCCESS:91%, DEVIATE:9%
+[12615680] reward=142.4 completion=98.2% | SUCCESS:94%, DEVIATE:5%, CRASH:1%
+[12697600] reward=140.2 completion=96.4% | SUCCESS:91%, DEVIATE:6%, TIMEOUT:3%
+[12779520] reward=140.5 completion=96.9% | SUCCESS:94%, DEVIATE:6%
+[12861440] reward=133.2 completion=95.4% | SUCCESS:88%, DEVIATE:11%, TIMEOUT:1%
+[12943360] reward=143.5 completion=98.7% | SUCCESS:96%, CRASH:1%, DEVIATE:3%
+[13025280] reward=134.4 completion=94.6% | SUCCESS:89%, DEVIATE:9%, CRASH:2%
+[13107200] reward=141.1 completion=98.0% | SUCCESS:94%, DEVIATE:6%
+[13189120] reward=139.2 completion=96.1% | SUCCESS:92%, DEVIATE:7%, CRASH:1%
+[13271040] reward=131.9 completion=93.5% | SUCCESS:88%, DEVIATE:10%, CRASH:2%
+[13352960] reward=133.6 completion=94.2% | SUCCESS:88%, DEVIATE:11%, CRASH:1%
+[13434880] reward=135.5 completion=96.9% | SUCCESS:90%, DEVIATE:9%, CRASH:1%
+[13516800] reward=140.7 completion=98.4% | SUCCESS:94%, DEVIATE:5%, CRASH:1%
+[13598720] reward=134.1 completion=96.4% | DEVIATE:10%, SUCCESS:89%, CRASH:1%
+[13680640] reward=132.9 completion=94.5% | SUCCESS:89%, DEVIATE:9%, CRASH:2%
+[13762560] reward=137.9 completion=96.4% | SUCCESS:92%, DEVIATE:8%
+[13844480] reward=139.4 completion=97.3% | SUCCESS:93%, DEVIATE:7%
+[13926400] reward=136.6 completion=96.8% | SUCCESS:91%, DEVIATE:8%, CRASH:1%
+[14008320] reward=139.9 completion=96.8% | SUCCESS:93%, DEVIATE:7%
+[14090240] reward=134.0 completion=96.6% | SUCCESS:89%, DEVIATE:11%
+[14172160] reward=143.0 completion=98.6% | SUCCESS:96%, DEVIATE:4%
+[14254080] reward=133.4 completion=95.8% | SUCCESS:89%, DEVIATE:10%, CRASH:1%
+[14336000] reward=131.6 completion=93.8% | SUCCESS:87%, DEVIATE:12%, TIMEOUT:1%
+[14417920] reward=133.8 completion=95.4% | SUCCESS:89%, CRASH:1%, DEVIATE:10%
+[14499840] reward=135.0 completion=96.2% | SUCCESS:90%, DEVIATE:9%, CRASH:1%
+[14581760] reward=141.8 completion=97.4% | SUCCESS:95%, CRASH:1%, DEVIATE:4%
+[14663680] reward=141.2 completion=96.9% | SUCCESS:94%, DEVIATE:5%, CRASH:1%
+[14745600] reward=136.7 completion=96.5% | SUCCESS:90%, DEVIATE:10%
+[14827520] reward=139.0 completion=97.0% | SUCCESS:92%, CRASH:1%, DEVIATE:7%
+[14909440] reward=139.7 completion=97.3% | DEVIATE:8%, SUCCESS:92%
+[14991360] reward=140.8 completion=97.8% | SUCCESS:94%, DEVIATE:5%, CRASH:1%
+[15073280] reward=144.0 completion=97.7% | SUCCESS:94%, DEVIATE:5%, CRASH:1%
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15,073,280/15,000,000  [ 6:45:00 < 0:00:00 , 805 it/s ]
+完成: /scratch/jiaqi/gym_pybullet/task2/../checkpoints/task2
