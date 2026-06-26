@@ -1,6 +1,4 @@
-# gym-pybullet-drones RL 实践
-
-基于 [utiasDSL/gym-pybullet-drones](https://github.com/utiasDSL/gym-pybullet-drones)，复现 [0324Lw/gym-pybullet-drones](https://github.com/0324Lw/gym-pybullet-drones) 的 Task 1～3（独立实现，非 copy-paste）。全程 **无 GUI**。
+# gym-pybullet-drones RL
 
 ## Task 1：定高悬停 (`task1/`)
 
